@@ -1,0 +1,14 @@
+{
+ "id": "reel-05-ai-example",
+ "theme": "light",
+ "cover": {"lines": ["Want AI to", "write like you?", "Show it one"], "hl": [2], "pill": "The example trick"},
+ "caption": "AI keeps writing in a style that is not yours? 😤 Stop describing it and SHOW it.\n\n1️⃣ Paste one example of the style you like\n2️⃣ Say: \"Write the next one in this exact style\"\n3️⃣ Give it your new topic\n\nOne good example beats ten lines of instructions. 📌 Save this for your next prompt.\n\nFollow @techmendly for a new tech tip every day.\n\n#ai #chatgpt #claude #aitools #promptengineering #aitips #productivity #contentcreation #techtips #techmendly",
+ "scenes": [
+  {"type": "hook", "tag": "AI TIP", "text": "AI never writes like you?", "hl": ["you"], "sub": "Stop describing your style. Show it.", "say": "Does AI never write like you? Stop describing your style. Show it.", "pad": 0.3},
+  {"type": "tip", "tag": "STEP 1 of 3", "chip": "STEP 1", "title": "Paste one example you like", "body": "A caption, an email, a post. Anything in your style.", "say": "One. Paste one example of the style you like. A caption, an email, anything that sounds like you.", "pad": 0.5},
+  {"type": "tip", "tag": "STEP 2 of 3", "chip": "STEP 2", "title": "Tell it what to do", "code": "Write the next one in this exact style.", "say": "Two. Tell it what to do. Write the next one in this exact style.", "pad": 0.5},
+  {"type": "chat", "tag": "STEP 3 of 3", "user": "Example: Fresh bread, no rush. Come hungry. Now write one for my new coffee menu.", "reply": "Fresh coffee, no rush.\nCome thirsty. New menu is here.", "hl": ["fresh coffee"], "say": "Three. Give it your new topic. Now watch. The answer matches your style, because the AI had something real to copy.", "pad": 1.0},
+  {"type": "compare", "tag": "THE RESULT", "left": {"title": "Describing your style", "text": "Vague. The AI guesses."}, "right": {"title": "Showing an example", "text": "Clear. The AI copies the pattern."}, "say": "Describing your style is vague. Showing one example is clear. Show, do not tell.", "pad": 0.5},
+  {"type": "outro", "text": "Follow @techmendly", "sub": "A new tech tip every day", "say": "Save this for your next prompt. Follow TechMendly for a new tech tip every day.", "shown": "Save this for your next prompt. Follow TechMendly for a new tech tip every day.", "pad": 0.3}
+ ]
+}

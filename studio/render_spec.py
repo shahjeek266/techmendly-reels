@@ -156,7 +156,46 @@ def sc_outro(d, th, s, f, lt):
     if s.get("sub"):
         fs = F(POP_M, 44); text_block(d, wrap(d, s["sub"], fs, 880), fs, W / 2, 1060, th["mute"], 60, ease((f - 0.4) / 0.2))
 
-SCENES = dict(hook=sc_hook, myth_fact=sc_myth_fact, steps=sc_steps, compare=sc_compare, stat=sc_stat, tip=sc_tip, outro=sc_outro)
+
+def sc_chat(d, th, s, f, lt):
+    x0, y0, x1 = 60, 290, 1020
+    _ul = wrap(d, s["user"], F(INTER_B, 38), 640); _rl = []
+    for _p in s["reply"].split("\n"): _rl += wrap(d, _p, F(INTER_B, 38), 760) or [""]
+    y1 = min(1320, y0 + 140 + len(_ul) * 54 + 50 + 50 + len(_rl) * 54 + 50 + 50)
+    d.rounded_rectangle((x0, y0, x1, y1), radius=40, fill=col(th["card"], 1), outline=col(th["cardline"], 1), width=4)
+    d.rounded_rectangle((x0, y0, x1, y0 + 96), radius=40, fill=col(th["cardline"], 1)); d.rectangle((x0, y0 + 50, x1, y0 + 96), fill=col(th["cardline"], 1))
+    d.ellipse((x0 + 34, y0 + 26, x0 + 78, y0 + 70), fill=col(th["acc"], 1))
+    d.text((x0 + 100, y0 + 48), s.get("title", "AI Assistant"), font=F(POP_B, 36), fill=col(th["fg"], 1), anchor="lm")
+    ub, rb = F(INTER_B, 38), F(INTER_B, 38)
+    u_lines = wrap(d, s["user"], ub, 640)
+    total = len(s["user"]); u = ease((f - 0.04) / 0.42); shown_n = int(total * u)
+    bh = len(u_lines) * 54 + 50; by = y0 + 140
+    d.rounded_rectangle((x1 - 40 - 720, by, x1 - 40, by + bh), radius=30, fill=col(th["acc"], 1))
+    ink = th["bg1"] if th is not THEMES["light"] else (255, 255, 255)
+    left = shown_n
+    for i, ln in enumerate(u_lines):
+        part = ln[:max(0, min(len(ln), left))]; left -= len(ln) + 1
+        d.text((x1 - 40 - 720 + 40, by + 26 + i * 54), part, font=ub, fill=col(ink, 1))
+    if u < 1 and int(lt * 3) % 2 == 0:
+        i = min(len(u_lines) - 1, max(0, len([l for l in u_lines]) - 1)) if shown_n >= total else 0
+        # caret at end of typed text
+        cnt = shown_n; li = 0
+        for j, ln in enumerate(u_lines):
+            if cnt <= len(ln) or j == len(u_lines) - 1: li = j; break
+            cnt -= len(ln) + 1
+        cx = x1 - 40 - 720 + 40 + tw(d, u_lines[li][:max(0, cnt)], ub)
+        d.rectangle((cx + 3, by + 26 + li * 54 + 4, cx + 8, by + 26 + li * 54 + 46), fill=col(ink, 1))
+    ra = ease((f - 0.55) / 0.15)
+    if ra > 0:
+        r_lines = []
+        for para in s["reply"].split("\n"): r_lines += wrap(d, para, rb, 760) or [""]
+        rh = len(r_lines) * 54 + 50; ry = by + bh + 50 + 30 * (1 - ra)
+        d.rounded_rectangle((x0 + 40, ry, x0 + 40 + 840, ry + rh), radius=30, fill=col(th["bg1"], ra), outline=col(th["cardline"], ra), width=3)
+        for i, ln in enumerate(r_lines):
+            hot = any(h in ln.lower() for h in [x.lower() for x in s.get("hl", [])])
+            d.text((x0 + 80, ry + 26 + i * 54), ln, font=rb, fill=col(th["acc"] if hot else th["fg"], ra))
+
+SCENES = dict(chat=sc_chat, hook=sc_hook, myth_fact=sc_myth_fact, steps=sc_steps, compare=sc_compare, stat=sc_stat, tip=sc_tip, outro=sc_outro)
 
 # ------------------------------------------------------------------ build
 def main(spec_path):

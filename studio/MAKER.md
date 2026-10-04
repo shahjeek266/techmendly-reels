@@ -23,10 +23,11 @@ Goal: keep `queue.json` stocked with 7+ pending Reels that are accurate, useful 
 - Ending: last scene is `outro` ("Follow @techmendly"). Add a save/share nudge naturally when it fits ("Save this for later").
 - Captions (`caption` field): 2-4 short lines of value beyond the video (the key command/steps as text, so it is worth saving), then "Follow @techmendly for a new tech tip every day.", then 8-10 relevant hashtags (always end with #techmendly). Emojis sparingly (1-4).
 - If a Reel would need a screen recording of a real product's UI you can't reproduce faithfully, don't fake the UI: use steps/tip/compare scenes with text instead.
+- AI-prompt tips should SHOW the prompt being typed: use the `chat` scene (typed user message + AI reply) like the best earlier Reel did. Don't make a new prompt tip that overlaps an already-used one (see topics.md); each AI tip needs a clearly different technique.
 - Don't copy another creator's script or visuals. No music or clips from other sources (the renderer generates its own audio).
 - The voice is synthetic; keep content honest and don't imply it is a real person.
 
 ## Scene types (see render_spec.py)
-hook {text, hl[], sub, size}; myth_fact {myth, fact}; steps {title, items[3-4]}; compare {left{title,text}, right{title,text}}; stat {big, label}; tip {chip, title, code, body}; outro {text, sub}.
+hook {text, hl[], sub, size}; myth_fact {myth, fact}; steps {title, items[3-4]}; compare {left{title,text}, right{title,text}}; stat {big, label}; tip {chip, title, code, body}; outro {text, sub}; chat {user, reply, hl[], title} (typed message then AI reply, user under ~120 chars, reply 2-5 short lines).
 All scenes: `tag` (header pill, 1-3 words, optional), `say` (spoken sentence(s)), `shown` (optional caption text if it differs from `say`), `pad` (pause after, seconds). Keep text short: titles under ~50 chars, steps under ~40 chars each, compare text under ~70 chars.
 Cover: `cover {lines[2-3 short lines], hl[line index to color], pill}`.
