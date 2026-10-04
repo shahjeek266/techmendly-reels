@@ -1,0 +1,12 @@
+{
+ "id": "example-flow",
+ "theme": "walk",
+ "cover": {"lines": ["Auto-reply", "to every", "new lead"], "hl": [2], "pill": "Free, in 3 steps"},
+ "caption": "test\n\n#techmendly",
+ "scenes": [
+  {"type": "hook", "tag": "AUTOMATION", "text": "Still replying to every lead by hand?", "hl": ["hand"], "sub": "Let a free tool do it.", "say": "Still replying to every lead by hand? Let a free tool do it.", "pad": 0.3},
+  {"type": "flow", "tag": "THE FLOW", "title": "Automation tool", "cards": [{"kind": "Trigger", "title": "New form entry", "sub": "Contact form", "icon": "F", "color": "blue"}, {"kind": "Action 1", "title": "Add row to Google Sheet", "sub": "Name, email, message", "icon": "S", "color": "green"}, {"kind": "Action 2", "title": "Send welcome email", "sub": "Thanks for reaching out", "icon": "@", "color": "orange"}], "say": "Open a free tool like Zapier. Pick a trigger, a new form entry. Add an action, save it to a sheet. Add another, send a welcome email.", "pad": 0.5},
+  {"type": "flow", "tag": "TURN IT ON", "title": "Automation tool", "cards": [{"kind": "Trigger", "title": "New form entry", "sub": "Contact form", "icon": "F", "color": "blue"}, {"kind": "Action 1", "title": "Add row to Google Sheet", "sub": "Name, email, message", "icon": "S", "color": "green"}, {"kind": "Action 2", "title": "Send welcome email", "sub": "Thanks for reaching out", "icon": "@", "color": "orange"}], "toggle": {"label": "Automation", "done": "Lead saved. Email sent."}, "say": "Now turn it on. Every new lead is saved and answered for you.", "pad": 0.8},
+  {"type": "outro", "text": "Follow @techmendly", "sub": "A new tech tip every day", "say": "Follow TechMendly for a new tech tip every day.", "pad": 0.3}
+ ]
+}

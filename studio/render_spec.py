@@ -25,7 +25,8 @@ def F(p, s):
 YEL = (255, 214, 10); RED = (232, 84, 84); GRN = (52, 199, 120); TEAL = (94, 234, 212); TEALD = (14, 140, 110)
 THEMES = {
     "dark":  dict(bg1=(10, 16, 32), bg2=(22, 34, 64), fg=(255, 255, 255), mute=(150, 165, 195), card=(26, 38, 70), cardline=(52, 70, 112), acc=TEAL, pill=(255, 255, 255), pillfg=(10, 16, 32), cap=(0, 0, 0)),
-    "light": dict(bg1=(244, 245, 247), bg2=(226, 232, 240), fg=(15, 23, 42), mute=(100, 110, 125), card=(255, 255, 255), cardline=(205, 212, 222), acc=TEALD, pill=(15, 23, 42), pillfg=(255, 255, 255), cap=(15, 23, 42)),
+    "light": dict(light=True, bg1=(244, 245, 247), bg2=(226, 232, 240), fg=(15, 23, 42), mute=(100, 110, 125), card=(255, 255, 255), cardline=(205, 212, 222), acc=TEALD, pill=(15, 23, 42), pillfg=(255, 255, 255), cap=(15, 23, 42)),
+    "walk":  dict(light=True, flat=True, bg1=(240, 240, 241), bg2=(240, 240, 241), fg=(20, 24, 40), mute=(90, 95, 100), card=(255, 255, 255), cardline=(200, 204, 210), acc=TEALD, pill=(20, 24, 40), pillfg=(255, 255, 255), cap=(20, 24, 40)),
     "teal":  dict(bg1=(6, 78, 70), bg2=(10, 38, 52), fg=(255, 255, 255), mute=(170, 220, 212), card=(10, 60, 62), cardline=(40, 130, 120), acc=YEL, pill=(255, 255, 255), pillfg=(6, 50, 50), cap=(4, 24, 30)),
 }
 
@@ -140,7 +141,7 @@ def sc_tip(d, th, s, f, lt):
     if s.get("code"):
         ba = ease((f - 0.3) / 0.15); bf = F(INTER_B, 40); lines = wrap(d, s["code"], bf, 800)
         hh = 60 + len(lines) * 58
-        d.rounded_rectangle((70, y + 50, 1010, y + 50 + hh), radius=30, fill=col((8, 12, 24) if th is not THEMES["light"] else (15, 23, 42), ba), outline=col(th["acc"], ba), width=3)
+        d.rounded_rectangle((70, y + 50, 1010, y + 50 + hh), radius=30, fill=col((8, 12, 24) if not th.get("light") else (15, 23, 42), ba), outline=col(th["acc"], ba), width=3)
         for li, ln in enumerate(lines): d.text((110, y + 80 + li * 58), ln, font=bf, fill=col((235, 245, 255), ba))
         y += hh + 50
     if s.get("body"):
@@ -149,7 +150,7 @@ def sc_tip(d, th, s, f, lt):
 
 def sc_outro(d, th, s, f, lt):
     a = ease(f / 0.15); sc = pop(f / 0.4)
-    mark(d, W / 2, 620, 190 * sc, th["fg"] if th is THEMES["dark"] or th is THEMES["teal"] else (15, 23, 42), TEAL if th is not THEMES["light"] else TEALD)
+    mark(d, W / 2, 620, 190 * sc, (15, 23, 42) if th.get("light") else th["fg"], TEALD if th.get("light") else TEAL)
     d.text((W / 2, 790), "TechMendly", font=F(POP_B, 74), fill=col(th["fg"], a), anchor="mm")
     fb = F(POP_B, 62)
     text_block(d, wrap(d, s.get("text", "Follow @techmendly"), fb, 900), fb, W / 2, 900, th["acc"], 80, ease((f - 0.2) / 0.2))
@@ -171,7 +172,7 @@ def sc_chat(d, th, s, f, lt):
     total = len(s["user"]); u = ease((f - 0.04) / 0.42); shown_n = int(total * u)
     bh = len(u_lines) * 54 + 50; by = y0 + 140
     d.rounded_rectangle((x1 - 40 - 720, by, x1 - 40, by + bh), radius=30, fill=col(th["acc"], 1))
-    ink = th["bg1"] if th is not THEMES["light"] else (255, 255, 255)
+    ink = th["bg1"] if not th.get("light") else (255, 255, 255)
     left = shown_n
     for i, ln in enumerate(u_lines):
         part = ln[:max(0, min(len(ln), left))]; left -= len(ln) + 1
@@ -195,7 +196,58 @@ def sc_chat(d, th, s, f, lt):
             hot = any(h in ln.lower() for h in [x.lower() for x in s.get("hl", [])])
             d.text((x0 + 80, ry + 26 + i * 54), ln, font=rb, fill=col(th["acc"] if hot else th["fg"], ra))
 
-SCENES = dict(chat=sc_chat, hook=sc_hook, myth_fact=sc_myth_fact, steps=sc_steps, compare=sc_compare, stat=sc_stat, tip=sc_tip, outro=sc_outro)
+BLUE, ORANGE = (34, 113, 177), (246, 130, 31)
+CCOL = dict(blue=BLUE, green=(60, 180, 110), orange=ORANGE, purple=(124, 77, 255), red=RED)
+def _cursor(d, x, y):
+    pts = [(0, 0), (0, 44), (12, 34), (20, 52), (29, 48), (21, 31), (36, 31)]
+    d.polygon([(x + a, y + b) for a, b in pts], fill=(255, 255, 255), outline=(15, 15, 15))
+
+def sc_flow(d, th, s, f, lt):
+    cards = s["cards"]; n = len(cards); tg = s.get("toggle")
+    x0, y0, x1 = 40, 280, 1040
+    ch = 150; gap = 38; top = y0 + 130
+    bottom = top + n * ch + (n - 1) * gap + (230 if tg else 60)
+    d.rounded_rectangle((x0, y0, x1, bottom), radius=30, fill=(255, 255, 255), outline=th["cardline"], width=3)
+    d.rounded_rectangle((x0, y0, x1, y0 + 90), radius=30, fill=(244, 245, 247)); d.rectangle((x0, y0 + 60, x1, y0 + 90), fill=(244, 245, 247))
+    d.line((x0 + 1, y0 + 90, x1 - 1, y0 + 90), fill=(225, 228, 232), width=2)
+    for i, c in enumerate([(255, 95, 86), (255, 189, 46), (39, 201, 63)]): d.ellipse([x0 + 32 + i * 40, y0 + 33, x0 + 52 + i * 40, y0 + 53], fill=c)
+    d.text((W / 2, y0 + 45), s.get("title", "Automation builder"), font=F(INTER_B, 30), fill=(20, 24, 40), anchor="mm")
+    done = tg and f > 0.84
+    for i, c in enumerate(cards):
+        a = ease((f - (0.04 + 0.13 * i)) / 0.12); sl = (1 - a) * 40
+        y = top + i * (ch + gap) + sl; cc = CCOL[c.get("color", "blue")]
+        if i > 0: d.line((W / 2, y - gap + 4, W / 2, y), fill=col((190, 194, 200), a), width=4)
+        d.rounded_rectangle((70, y, 1010, y + ch), radius=22, fill=col((255, 255, 255), a), outline=col(cc, a), width=4)
+        d.rounded_rectangle((100, y + 30, 190, y + 120), radius=20, fill=col(cc, a))
+        d.text((145, y + 75), c.get("icon", c["kind"][0]), font=F(POP_B, 46), fill=col((255, 255, 255), a), anchor="mm")
+        d.text((220, y + 28), c["kind"].upper(), font=F(INTER_B, 24), fill=col(cc, a))
+        d.text((220, y + 58), c["title"], font=F(POP_B, 38), fill=col((20, 24, 40), a))
+        d.text((220, y + 106), c.get("sub", ""), font=F(INTER_B, 26), fill=col((100, 105, 112), a))
+        if done:
+            ca = ease((f - 0.86 - 0.03 * i) / 0.08)
+            d.ellipse((930, y + 50, 980, y + 100), fill=col(GRN, ca)); d.line([(942, y + 76), (951, y + 86), (968, y + 63)], fill=col((255, 255, 255), ca), width=6)
+    if tg:
+        ty = top + n * (ch + gap) - gap + 80; ta = ease((f - 0.5) / 0.1)
+        d.text((100, ty + 20), tg.get("label", "Automation"), font=F(INTER_B, 34), fill=col((20, 24, 40), ta))
+        bx = 400; on = f > 0.82
+        d.rounded_rectangle((bx, ty, bx + 120, ty + 64), radius=32, fill=col(GRN if on else (190, 194, 200), ta))
+        kx = bx + (92 if on else 32); d.ellipse((kx - 26, ty + 6, kx + 26, ty + 58), fill=col((255, 255, 255), ta))
+        d.text((bx + 150, ty + 32), "ON" if on else "OFF", font=F(INTER_B, 32), fill=col(GRN if on else (100, 105, 112), ta), anchor="lm")
+        if 0.5 < f < 0.82:
+            d.rounded_rectangle((bx - 14, ty - 14, bx + 134, ty + 78), radius=40, outline=col(YEL, ta), width=8)
+        # cursor path to toggle
+        cx = 760 + (bx + 60 - 760) * ease((f - 0.58) / 0.22); cy = (y0 + 330) + (ty + 40 - (y0 + 330)) * ease((f - 0.58) / 0.22)
+        if f > 0.58: _cursor(d, cx, cy)
+        u = (f - 0.80) / 0.07
+        if 0 <= u <= 1:
+            rr = 18 + u * 50; d.ellipse([bx + 60 - rr, ty + 32 - rr, bx + 60 + rr, ty + 32 + rr], outline=col(YEL, 1 - u), width=7)
+        if on and tg.get("done"):
+            za = ease((f - 0.88) / 0.1); zy = ty + 110
+            d.rounded_rectangle((100, zy, 980, zy + 80), radius=14, fill=col((230, 247, 238), za), outline=col(GRN, za), width=3)
+            d.ellipse((124, zy + 16, 172, zy + 64), fill=col(GRN, za)); d.line([(136, zy + 40), (146, zy + 51), (162, zy + 28)], fill=col((255, 255, 255), za), width=6)
+            d.text((192, zy + 40), tg["done"], font=F(INTER_B, 32), fill=col((25, 100, 60), za), anchor="lm")
+
+SCENES = dict(flow=sc_flow, chat=sc_chat, hook=sc_hook, myth_fact=sc_myth_fact, steps=sc_steps, compare=sc_compare, stat=sc_stat, tip=sc_tip, outro=sc_outro)
 
 # ------------------------------------------------------------------ build
 def main(spec_path):
@@ -253,7 +305,7 @@ def main(spec_path):
         if lab and scenes[si]["type"] != "outro":
             ft = F(POP_B, 36); d.rounded_rectangle((60, 150, 60 + tw(d, lab, ft) + 64, 226), radius=38, fill=th["pill"])
             d.text((92, 162), lab, font=ft, fill=th["pillfg"])
-        mark(d, 985, 188, 62, th["fg"], TEAL if spec.get("theme", "dark") != "light" else TEALD)
+        mark(d, 985, 188, 62, th["fg"], TEALD if th.get("light") else TEAL)
         d.text((940 - tw(d, "@techmendly", F(POP_M, 32)), 172), "@techmendly", font=F(POP_M, 32), fill=th["mute"])
 
     def captions(d, tm):
@@ -270,7 +322,7 @@ def main(spec_path):
                     if tw(d, test, f) <= 900: cl = test; idx.append(kk)
                     else: lines.append((cl, idx)); cl = w_; idx = [kk]
                 lines.append((cl, idx)); top = 1350
-                d.rounded_rectangle((60, top, 1020, top + len(lines) * 74 + 44), radius=24, fill=col(th["cap"], 0.88))
+                d.rounded_rectangle((60, top, 1020, top + len(lines) * 74 + 44), radius=24, fill=col(th["cap"], 0.97 if th.get("flat") else 0.88))
                 for li, (ln, ix) in enumerate(lines):
                     x = W / 2 - tw(d, ln, f) / 2
                     for kk in ix:
@@ -279,7 +331,7 @@ def main(spec_path):
 
     def frame(tm):
         img = BGI.copy(); dd = ImageDraw.Draw(img)
-        for (x, y0, r, sp) in dots:
+        for (x, y0, r, sp) in ([] if th.get("flat") else dots):
             y = (y0 - tm * sp) % H; dd.ellipse((x - r, y - r, x + r, y + r), fill=col(th["acc"], 0.06))
         si = max(i for i in range(len(SS)) if SS[i] <= tm) if tm < TOTAL else len(SS) - 1
         lt = tm - SS[si]; dur = SE[si] - SS[si]; f = lt / dur
@@ -310,7 +362,7 @@ def main(spec_path):
     # cover + caption
     cv = spec["cover"]; ci = Image.new("RGB", (W, H), th["bg1"]); cd = ImageDraw.Draw(ci)
     ci = Image.alpha_composite(BGI, Image.new("RGBA", (W, H), (0, 0, 0, 0))).convert("RGB"); cd = ImageDraw.Draw(ci)
-    dk = spec.get("theme", "dark") != "light"
+    dk = not th.get("light")
     mark(cd, 540, 600, 130, th["fg"] if dk else (15, 23, 42), TEAL if dk else TEALD)
     cd.text((540, 710), "TechMendly", font=F(POP_B, 44), fill=th["fg"], anchor="mm")
     y = 820; fb = F(POP_B, 112)
