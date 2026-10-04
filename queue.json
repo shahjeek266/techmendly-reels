@@ -1,0 +1,24 @@
+{
+  "posting_time": "19:00 Asia/Karachi (daily)",
+  "base_url": "https://raw.githubusercontent.com/shahjeek266/techmendly-reels/main",
+  "queue": [
+    {
+      "id": "reel-01-elementor-cache",
+      "status": "posted",
+      "posted_at": "2026-10-04T15:33:40Z",
+      "permalink": "https://www.instagram.com/reel/DeE9wHOAv0x/"
+    },
+    {
+      "id": "reel-02-ai-prompt",
+      "status": "pending"
+    },
+    {
+      "id": "reel-04-fake-sites",
+      "status": "pending"
+    },
+    {
+      "id": "reel-03-automation",
+      "status": "pending"
+    }
+  ]
+}

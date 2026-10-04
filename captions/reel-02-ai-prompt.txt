@@ -1,0 +1,12 @@
+Getting boring, generic answers from AI? 😩 The problem is usually the prompt, not the AI.
+
+Use this 3-part formula:
+1️⃣ WHO: give it a role ("You are a social media manager for a bakery")
+2️⃣ WHAT: state the exact task ("Write 3 Instagram captions for a new chocolate cake")
+3️⃣ HOW: pick the format ("Short and friendly")
+
+Specific in, useful out. 📌 Save this for your next prompt.
+
+Follow @techmendly for a new tech tip every day.
+
+#ai #chatgpt #claude #aitools #promptengineering #productivity #smallbusiness #techtips #techmendly #learnai

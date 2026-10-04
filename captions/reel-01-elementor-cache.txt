@@ -1,0 +1,15 @@
+Saved a change in Elementor but your live page still looks old? 😩
+
+Your change is almost certainly saved. Your site keeps several copies of every page, and one of them is stale.
+
+Clear them in this order:
+1️⃣ Elementor > Tools > Clear Files & Data
+2️⃣ Cache plugin or host cache > Purge All
+3️⃣ Cloudflare > Caching > Purge
+4️⃣ Check in a private window
+
+Inside out, so no layer re-caches the old page.
+
+📌 Save this for next time. Full step-by-step guide on techmendly.com (link in bio).
+
+#elementor #wordpress #wordpresstips #webdevelopment #webdesign #cloudflare #wpdeveloper #websitetips #techmendly #troubleshooting

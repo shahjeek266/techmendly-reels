@@ -1,0 +1,12 @@
+Still copying new leads into a spreadsheet by hand? 😮‍💨
+
+Automate it with one trigger and two actions:
+1️⃣ Trigger: a new form entry comes in
+2️⃣ Action: add a row to your Google Sheet
+3️⃣ Action: send a welcome email automatically
+
+Turn it on and every new lead is saved and answered for you. No code needed.
+
+📌 Save this for later. Follow @techmendly for a new automation every day.
+
+#automation #nocode #smallbusiness #productivity #workflow #leadgeneration #googlesheets #aiautomation #techmendly #businesstips
