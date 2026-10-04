@@ -1,0 +1,79 @@
+{
+ "id": "reel-05-ai-ask-first",
+ "theme": "dark",
+ "cover": {
+  "lines": [
+   "Make AI",
+   "ask YOU",
+   "questions"
+  ],
+  "hl": [
+   1
+  ],
+  "pill": "One line, better answers"
+ },
+ "caption": "Most people ask AI a question and take the first answer. \ud83d\ude2c Try this instead.\n\nAdd ONE line to your prompt:\n\"Before you answer, ask me 3 questions to understand what I need.\"\n\nNow the AI stops guessing and starts using YOUR details, so the answer actually fits you. \ud83c\udfaf\n\n\ud83d\udccc Save this for your next prompt.\n\nFollow @techmendly for a new tech tip every day.\n\n#ai #chatgpt #claude #aitools #promptengineering #productivity #techtips #learnai #aihacks #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "text": "Your AI is just guessing.",
+   "hl": [
+    "guessing"
+   ],
+   "sub": "Here is a one-line fix.",
+   "say": "Your AI is just guessing. Here is a one line fix.",
+   "pad": 0.3,
+   "tag": "AI TIP"
+  },
+  {
+   "type": "compare",
+   "left": {
+    "title": "What most people do",
+    "text": "Write me a business plan."
+   },
+   "right": {
+    "title": "What gets better results",
+    "text": "Ask me 3 questions first, then write my plan."
+   },
+   "say": "Most people type a short request and take the first answer. The better move is to let the AI ask you first.",
+   "pad": 0.5,
+   "tag": "THE PROBLEM"
+  },
+  {
+   "type": "tip",
+   "title": "Add this line to any prompt",
+   "code": "Before you answer, ask me 3 questions to understand what I need.",
+   "say": "Add this line to any prompt. Before you answer, ask me three questions to understand what I need.",
+   "pad": 0.6,
+   "tag": "THE LINE"
+  },
+  {
+   "type": "steps",
+   "title": "Then you get",
+   "items": [
+    "Questions about your goal",
+    "Your answers, in your words",
+    "A reply made for you"
+   ],
+   "say": "The AI asks about your goal. You answer in your own words. Then it writes a reply made for you, not for everyone.",
+   "pad": 0.5,
+   "tag": "WHAT HAPPENS"
+  },
+  {
+   "type": "stat",
+   "label": "quick questions turn a generic answer into a useful one",
+   "big": "3",
+   "say": "Three quick questions can turn a generic answer into a useful one.",
+   "pad": 0.5,
+   "tag": "WHY IT WORKS"
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Save this for your next prompt. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this for your next prompt. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}

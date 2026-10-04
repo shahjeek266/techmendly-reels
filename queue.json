@@ -19,6 +19,10 @@
     {
       "id": "reel-03-automation",
       "status": "pending"
+    },
+    {
+      "id": "reel-05-ai-ask-first",
+      "status": "pending"
     }
   ]
 }
