@@ -1,0 +1,12 @@
+Passwords leak. Two-factor authentication keeps your account locked anyway. 🔐
+
+1️⃣ Open security settings in your email first
+2️⃣ Turn on two-step verification
+3️⃣ Choose an authenticator app if offered, it is safer than SMS
+4️⃣ Save your backup codes somewhere safe
+
+Do email first, then banking and social. 📌 Save this.
+
+Follow @techmendly for a new tech tip every day.
+
+#cybersecurity #onlinesafety #2fa #twofactorauthentication #passwords #privacy #infosec #staysafeonline #techtips #techmendly

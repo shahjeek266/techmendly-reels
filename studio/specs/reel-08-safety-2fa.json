@@ -31,7 +31,7 @@
    "chip": "TURN ON",
    "title": "Two-factor authentication",
    "body": "A second check after your password, like a code.",
-   "say": "It is called two-factor authentication. After your password, you need a second check, like a code.",
+   "say": "It is called two-factor authentication. You need a second check, like a code.",
    "pad": 0.5
   },
   {
@@ -44,7 +44,7 @@
     "Pick an authenticator app",
     "Save your backup codes"
    ],
-   "say": "Open your account's security settings. Find two-step verification. Pick an authenticator app if it is offered. And save your backup codes somewhere safe.",
+   "say": "Open security settings. Find two-step verification. Pick an authenticator app. Save your backup codes.",
    "pad": 0.5
   },
   {
