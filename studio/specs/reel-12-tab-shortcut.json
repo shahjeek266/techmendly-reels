@@ -1,0 +1,78 @@
+{
+ "id": "reel-12-tab-shortcut",
+ "theme": "dark",
+ "cover": {
+  "lines": [
+   "Closed a tab",
+   "by mistake?",
+   "One shortcut"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "Free tip"
+ },
+ "caption": "Closed the wrong tab? 😅 Bring it back instantly.\n\nWindows or Linux: Ctrl + Shift + T\nMac: Cmd + Shift + T\n\nWorks in Chrome, Edge and Firefox. Press it again to reopen the one before. 📌 Save this.\n\nFollow @techmendly for a new tech tip every day.\n\n#shortcuts #productivity #chrome #browsertips #keyboardshortcuts #lifehack #computertips #timesaver #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "PRODUCTIVITY",
+   "text": "Closed the wrong tab by mistake?",
+   "hl": [
+    "wrong tab"
+   ],
+   "sub": "Bring it back in one second.",
+   "say": "Closed the wrong tab by mistake? Bring it back in one second.",
+   "pad": 0.3
+  },
+  {
+   "type": "tip",
+   "tag": "WINDOWS",
+   "chip": "SHORTCUT",
+   "title": "Reopen a closed tab",
+   "code": "Ctrl + Shift + T",
+   "say": "On Windows or Linux, press Control, Shift, and T.",
+   "shown": "On Windows or Linux, press Ctrl, Shift, and T.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "MAC",
+   "chip": "SHORTCUT",
+   "title": "Same idea on a Mac",
+   "code": "Cmd + Shift + T",
+   "say": "On a Mac, press Command, Shift, and T.",
+   "pad": 0.5
+  },
+  {
+   "type": "stat",
+   "tag": "BONUS",
+   "big": "Again",
+   "label": "press it again to reopen the tab before that",
+   "say": "Press it again, and it reopens the tab before that.",
+   "pad": 0.5
+  },
+  {
+   "type": "compare",
+   "tag": "WORKS IN",
+   "left": {
+    "title": "Chrome and Edge",
+    "text": "Yes"
+   },
+   "right": {
+    "title": "Firefox",
+    "text": "Yes"
+   },
+   "say": "It works in Chrome, Edge and Firefox.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Save this for your next oops. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this for your next oops. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}

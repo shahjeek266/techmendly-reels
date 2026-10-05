@@ -1,0 +1,72 @@
+{
+ "id": "reel-10-wp-slow-site",
+ "theme": "light",
+ "cover": {
+  "lines": [
+   "Slow WordPress?",
+   "3 quick wins",
+   "you can do today"
+  ],
+  "hl": [
+   1
+  ],
+  "pill": "Speed up"
+ },
+ "caption": "Slow site = visitors leaving. ⏱️ Three wins that need no coding:\n\n1️⃣ Compress images before you upload\n2️⃣ Turn on page caching with a caching plugin\n3️⃣ Delete plugins you don't use\n\nTest before and after with a free speed tool. 📌 Save this checklist.\n\nFollow @techmendly for a new tech tip every day.\n\n#wordpress #wordpresstips #websitespeed #webperformance #webdesign #seo #website #pagespeed #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "WORDPRESS",
+   "text": "Is your WordPress site painfully slow?",
+   "hl": [
+    "slow"
+   ],
+   "sub": "Three quick wins. No coding.",
+   "say": "Is your WordPress site painfully slow? Three quick wins. No coding.",
+   "pad": 0.3
+  },
+  {
+   "type": "tip",
+   "tag": "WIN 1",
+   "chip": "IMAGES",
+   "title": "Compress before you upload",
+   "body": "Huge photos are the most common slowdown.",
+   "say": "One. Compress your images before you upload. Huge photos are a very common slowdown.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "WIN 2",
+   "chip": "CACHING",
+   "title": "Turn on page caching",
+   "body": "A caching plugin serves saved pages faster.",
+   "say": "Two. Turn on page caching. A caching plugin serves saved pages, so visitors get them faster.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "WIN 3",
+   "chip": "CLEAN UP",
+   "title": "Delete unused plugins",
+   "body": "Deactivated is not deleted. Remove what you don't use.",
+   "say": "Three. Delete plugins you do not use. Deactivated is not the same as deleted.",
+   "pad": 0.5
+  },
+  {
+   "type": "stat",
+   "tag": "CHECK IT",
+   "big": "Compare",
+   "label": "before and after: test with a free speed tool",
+   "say": "Test your site before and after, with a free speed tool, so you can see the difference.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Save this speed checklist. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this speed checklist. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "id": "reel-06-ai-ask-first",
+ "theme": "walk",
+ "cover": {
+  "lines": [
+   "Get better AI",
+   "answers:",
+   "let it ask first"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "One prompt trick"
+ },
+ "caption": "Vague prompt, vague answer? 🤔 Let the AI interview you first.\n\nPaste this: \"Before you answer, ask me up to 5 questions you need to do this well.\"\n\nAnswer them, then get a reply made for you. 📌 Save this prompt.\n\nFollow @techmendly for a new tech tip every day.\n\n#ai #chatgpt #claude #aitools #promptengineering #aitips #productivity #techtips #learnai #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "AI TIP",
+   "text": "Why does AI give you generic answers?",
+   "hl": [
+    "generic"
+   ],
+   "sub": "It is missing your details.",
+   "say": "Why does AI give you generic answers? It is missing your details.",
+   "pad": 0.3
+  },
+  {
+   "type": "tip",
+   "tag": "THE TRICK",
+   "chip": "ADD THIS",
+   "title": "Let the AI ask first",
+   "code": "Before you answer, ask me up to 5 questions.",
+   "say": "Here is the trick. Add one line to your prompt. Before you answer, ask me up to five questions.",
+   "pad": 0.5
+  },
+  {
+   "type": "chat",
+   "tag": "TRY IT",
+   "title": "AI chat",
+   "user": "Plan my week of study. Before you answer, ask me up to 5 questions.",
+   "reply": "Happy to help!\n1. What are you studying?\n2. How many hours a day?\n3. When is your exam?",
+   "hl": [
+    "questions"
+   ],
+   "say": "Watch what happens. The AI does not guess. It asks what subject, how many hours, and when your exam is.",
+   "pad": 0.8
+  },
+  {
+   "type": "steps",
+   "tag": "THEN",
+   "title": "Answer, then get a tailored plan",
+   "items": [
+    "Answer each question briefly",
+    "Add anything it missed",
+    "Ask for the final result"
+   ],
+   "say": "Answer each question briefly. Add anything it missed. Then ask for the final result. It is built around you.",
+   "pad": 0.5
+  },
+  {
+   "type": "stat",
+   "tag": "WHY IT WORKS",
+   "big": "5",
+   "label": "quick questions replace a vague guess with your real details",
+   "say": "Five quick questions replace a vague guess with your real details.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Save this prompt for later. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this prompt for later. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "id": "reel-08-safety-2fa",
+ "theme": "teal",
+ "cover": {
+  "lines": [
+   "A stolen password",
+   "is not enough",
+   "if you do this"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "2 minutes"
+ },
+ "caption": "Passwords leak. Two-factor authentication keeps your account locked anyway. 🔐\n\n1️⃣ Open security settings in your email first\n2️⃣ Turn on two-step verification\n3️⃣ Choose an authenticator app if offered, it is safer than SMS\n4️⃣ Save your backup codes somewhere safe\n\nDo email first, then banking and social. 📌 Save this.\n\nFollow @techmendly for a new tech tip every day.\n\n#cybersecurity #onlinesafety #2fa #twofactorauthentication #passwords #privacy #infosec #staysafeonline #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "SAFETY",
+   "text": "Your password leaked. Are you still safe?",
+   "hl": [
+    "safe"
+   ],
+   "sub": "Only if you turned this on.",
+   "say": "Your password leaked. Are you still safe? Only if you turned this on.",
+   "pad": 0.3
+  },
+  {
+   "type": "tip",
+   "tag": "THE FIX",
+   "chip": "TURN ON",
+   "title": "Two-factor authentication",
+   "body": "A second check after your password, like a code.",
+   "say": "It is called two-factor authentication. After your password, you need a second check, like a code.",
+   "pad": 0.5
+  },
+  {
+   "type": "steps",
+   "tag": "HOW TO",
+   "title": "Set it up in minutes",
+   "items": [
+    "Open Security settings",
+    "Find Two-step verification",
+    "Pick an authenticator app",
+    "Save your backup codes"
+   ],
+   "say": "Open your account's security settings. Find two-step verification. Pick an authenticator app if it is offered. And save your backup codes somewhere safe.",
+   "pad": 0.5
+  },
+  {
+   "type": "compare",
+   "tag": "WHICH TYPE",
+   "left": {
+    "title": "Text message code",
+    "text": "Better than nothing"
+   },
+   "right": {
+    "title": "Authenticator app",
+    "text": "Safer, harder to hijack"
+   },
+   "say": "A text message code is better than nothing. But an authenticator app is safer.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "START HERE",
+   "chip": "PRIORITY",
+   "title": "Email first",
+   "body": "Your email can reset every other account.",
+   "say": "Start with your email. It can reset all your other accounts. Then do banking and social media.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Save this and do it today. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this and do it today. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}

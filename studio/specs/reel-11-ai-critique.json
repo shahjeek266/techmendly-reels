@@ -1,0 +1,69 @@
+{
+ "id": "reel-11-ai-critique",
+ "theme": "walk",
+ "cover": {
+  "lines": [
+   "Make AI",
+   "fix its own",
+   "first draft"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "The critique trick"
+ },
+ "caption": "First AI draft not great? 🛠️ Don't start over. Make it critique itself.\n\n1️⃣ Get the first draft\n2️⃣ Say: \"List 3 weaknesses in your answer, then rewrite it fixing them.\"\n3️⃣ Compare the two versions\n\nStill check the facts yourself. 📌 Save this prompt.\n\nFollow @techmendly for a new tech tip every day.\n\n#ai #chatgpt #claude #aitools #promptengineering #aitips #writingtips #productivity #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "AI TIP",
+   "text": "The first AI draft is never the best one.",
+   "hl": [
+    "never"
+   ],
+   "sub": "Make it improve itself.",
+   "say": "The first AI draft is never the best one. Make it improve itself.",
+   "pad": 0.3
+  },
+  {
+   "type": "chat",
+   "tag": "STEP 1",
+   "title": "AI chat",
+   "user": "List 3 weaknesses in your answer, then rewrite it fixing them.",
+   "reply": "Weaknesses:\n1. Too long\n2. No clear example\n3. Weak opening\nHere is a tighter version...",
+   "hl": [
+    "weaknesses"
+   ],
+   "say": "Step one. After the first draft, say this. List three weaknesses in your answer, then rewrite it fixing them.",
+   "pad": 0.8
+  },
+  {
+   "type": "steps",
+   "tag": "HOW",
+   "title": "Use it in 3 moves",
+   "items": [
+    "Get a first draft",
+    "Ask for 3 weaknesses",
+    "Ask for a fixed rewrite"
+   ],
+   "say": "Get a first draft. Ask for three weaknesses. Then ask for a fixed rewrite.",
+   "pad": 0.5
+  },
+  {
+   "type": "myth_fact",
+   "tag": "CAREFUL",
+   "myth": "The rewrite is always correct",
+   "fact": "Always check facts yourself",
+   "say": "One warning. The rewrite is not always correct. Always check the facts yourself.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Save this prompt for your next draft. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this prompt for your next draft. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}

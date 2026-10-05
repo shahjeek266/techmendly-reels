@@ -1,0 +1,101 @@
+{
+ "id": "reel-09-auto-attachments",
+ "theme": "walk",
+ "cover": {
+  "lines": [
+   "Auto-save",
+   "email attachments",
+   "to a folder"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "Free, in 3 steps"
+ },
+ "caption": "Digging through email for that one invoice? 😩 Let a free tool file it for you.\n\n1️⃣ Trigger: new email with an attachment\n2️⃣ Action: save the file to a cloud folder\n3️⃣ Action: send yourself a short alert\n\nTools like Zapier or Make have free plans to start. 📌 Save this.\n\nFollow @techmendly for a new tech tip every day.\n\n#automation #nocode #zapier #make #productivity #workflow #emailtips #timesaver #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "AUTOMATION",
+   "text": "Still hunting for attachments in your inbox?",
+   "hl": [
+    "hunting"
+   ],
+   "sub": "Let a free tool file them.",
+   "say": "Still hunting for attachments in your inbox? Let a free tool file them.",
+   "pad": 0.3
+  },
+  {
+   "type": "flow",
+   "tag": "THE FLOW",
+   "title": "Automation tool",
+   "cards": [
+    {
+     "kind": "Trigger",
+     "title": "New email with attachment",
+     "sub": "Your inbox",
+     "icon": "@",
+     "color": "blue"
+    },
+    {
+     "kind": "Action 1",
+     "title": "Save file to cloud folder",
+     "sub": "Invoices folder",
+     "icon": "F",
+     "color": "green"
+    },
+    {
+     "kind": "Action 2",
+     "title": "Send me a short alert",
+     "sub": "File saved",
+     "icon": "!",
+     "color": "orange"
+    }
+   ],
+   "say": "Open a free tool like Zapier or Make. Pick a trigger, a new email with an attachment. Add an action, save the file to a cloud folder. Add another, send yourself a short alert.",
+   "pad": 0.5
+  },
+  {
+   "type": "flow",
+   "tag": "TURN IT ON",
+   "title": "Automation tool",
+   "cards": [
+    {
+     "kind": "Trigger",
+     "title": "New email with attachment",
+     "sub": "Your inbox",
+     "icon": "@",
+     "color": "blue"
+    },
+    {
+     "kind": "Action 1",
+     "title": "Save file to cloud folder",
+     "sub": "Invoices folder",
+     "icon": "F",
+     "color": "green"
+    },
+    {
+     "kind": "Action 2",
+     "title": "Send me a short alert",
+     "sub": "File saved",
+     "icon": "!",
+     "color": "orange"
+    }
+   ],
+   "toggle": {
+    "label": "Automation",
+    "done": "File saved. Alert sent."
+   },
+   "say": "Turn it on. From now on, every attachment is filed for you.",
+   "pad": 0.8
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Save this for your next free hour. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this for your next free hour. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}
