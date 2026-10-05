@@ -1,0 +1,11 @@
+Blank white page on your WordPress site? 😱 Don't panic. Most often it is one plugin or theme.
+
+1️⃣ Connect with FTP or your host's file manager
+2️⃣ Rename wp-content/plugins to plugins-off
+3️⃣ Reload. If the site is back, rename it back and turn plugins on one by one
+
+Still blank? Switch to a default theme the same way. 📌 Save this.
+
+Follow @techmendly for a new tech tip every day.
+
+#wordpress #wordpresstips #webdesign #website #webdevelopment #wpfix #websitehelp #nocode #techtips #techmendly

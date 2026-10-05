@@ -28,9 +28,9 @@
   {
    "type": "myth_fact",
    "tag": "GOOD NEWS",
-   "myth": "My whole site is gone",
-   "fact": "Usually one plugin or theme crashed",
-   "say": "Your site is not gone. Usually, one plugin or theme crashed.",
+   "myth": "My site is gone",
+   "fact": "One plugin or theme crashed",
+   "say": "Your site is not gone. One plugin or theme crashed.",
    "pad": 0.5
   },
   {
@@ -38,12 +38,12 @@
    "tag": "THE FIX",
    "title": "Turn off all plugins at once",
    "items": [
-    "Open your host's file manager",
+    "Open your file manager",
     "Go to wp-content",
     "Rename plugins to plugins-off",
     "Reload your site"
    ],
-   "say": "Open your host's file manager. Go to the wp-content folder. Rename the plugins folder to plugins-off. Then reload your site.",
+   "say": "Open your file manager. Go to wp-content. Rename plugins to plugins-off. Reload.",
    "pad": 0.5
   },
   {
@@ -66,7 +66,7 @@
     "title": "Theme",
     "text": "Rename it to switch to a default"
    },
-   "say": "Still blank? Plugins are ruled out, so try the theme. Rename it, and WordPress falls back to a default theme.",
+   "say": "Still blank? Try the theme. Rename it, and WordPress uses a default theme.",
    "pad": 0.5
   },
   {
