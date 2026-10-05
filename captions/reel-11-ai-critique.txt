@@ -1,0 +1,11 @@
+First AI draft not great? 🛠️ Don't start over. Make it critique itself.
+
+1️⃣ Get the first draft
+2️⃣ Say: "List 3 weaknesses in your answer, then rewrite it fixing them."
+3️⃣ Compare the two versions
+
+Still check the facts yourself. 📌 Save this prompt.
+
+Follow @techmendly for a new tech tip every day.
+
+#ai #chatgpt #claude #aitools #promptengineering #aitips #writingtips #productivity #techtips #techmendly

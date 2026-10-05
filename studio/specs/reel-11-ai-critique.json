@@ -17,12 +17,12 @@
   {
    "type": "hook",
    "tag": "AI TIP",
-   "text": "The first AI draft is never the best one.",
+   "text": "The first AI draft is rarely the best.",
    "hl": [
-    "never"
+    "rarely"
    ],
    "sub": "Make it improve itself.",
-   "say": "The first AI draft is never the best one. Make it improve itself.",
+   "say": "The first AI draft is rarely the best. Make it improve itself.",
    "pad": 0.3
   },
   {
@@ -52,9 +52,9 @@
   {
    "type": "myth_fact",
    "tag": "CAREFUL",
-   "myth": "The rewrite is always correct",
+   "myth": "Rewrites are always right",
    "fact": "Always check facts yourself",
-   "say": "One warning. The rewrite is not always correct. Always check the facts yourself.",
+   "say": "One warning. A rewrite is not always correct. Always check the facts yourself.",
    "pad": 0.5
   },
   {
