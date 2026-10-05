@@ -1,0 +1,11 @@
+Digging through email for that one invoice? 😩 Let a free tool file it for you.
+
+1️⃣ Trigger: new email with an attachment
+2️⃣ Action: save the file to a cloud folder
+3️⃣ Action: send yourself a short alert
+
+Tools like Zapier or Make have free plans to start. 📌 Save this.
+
+Follow @techmendly for a new tech tip every day.
+
+#automation #nocode #zapier #make #productivity #workflow #emailtips #timesaver #techtips #techmendly
