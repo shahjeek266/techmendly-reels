@@ -1,0 +1,11 @@
+Slow site = visitors leaving. ⏱️ Three wins that need no coding:
+
+1️⃣ Compress images before you upload
+2️⃣ Turn on page caching with a caching plugin
+3️⃣ Delete plugins you don't use
+
+Test before and after with a free speed tool. 📌 Save this checklist.
+
+Follow @techmendly for a new tech tip every day.
+
+#wordpress #wordpresstips #websitespeed #webperformance #webdesign #seo #website #pagespeed #techtips #techmendly

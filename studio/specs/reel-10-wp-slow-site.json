@@ -30,7 +30,7 @@
    "tag": "WIN 1",
    "chip": "IMAGES",
    "title": "Compress before you upload",
-   "body": "Huge photos are the most common slowdown.",
+   "body": "Huge photos are a common slowdown.",
    "say": "One. Compress your images before you upload. Huge photos are a very common slowdown.",
    "pad": 0.5
   },
@@ -55,8 +55,8 @@
   {
    "type": "stat",
    "tag": "CHECK IT",
-   "big": "Compare",
-   "label": "before and after: test with a free speed tool",
+   "big": "Test",
+   "label": "before and after, with a free speed tool",
    "say": "Test your site before and after, with a free speed tool, so you can see the difference.",
    "pad": 0.5
   },
