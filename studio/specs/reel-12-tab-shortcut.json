@@ -53,16 +53,14 @@
    "pad": 0.5
   },
   {
-   "type": "compare",
+   "type": "steps",
    "tag": "WORKS IN",
-   "left": {
-    "title": "Chrome and Edge",
-    "text": "Yes"
-   },
-   "right": {
-    "title": "Firefox",
-    "text": "Yes"
-   },
+   "title": "Your favorite browser",
+   "items": [
+    "Google Chrome",
+    "Microsoft Edge",
+    "Mozilla Firefox"
+   ],
    "say": "It works in Chrome, Edge and Firefox.",
    "pad": 0.5
   },
