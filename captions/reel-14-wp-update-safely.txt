@@ -1,0 +1,11 @@
+One bad plugin update can break a site. 😬 Do this first:
+
+1. Make a backup
+2. Update one plugin at a time
+3. Open your site and check
+
+📌 Save this checklist.
+
+Follow @techmendly for a new tech tip every day.
+
+#wordpress #wordpresstips #webdesign #website #plugins #webdevelopment #wpadmin #bloggingtips #techtips #techmendly
