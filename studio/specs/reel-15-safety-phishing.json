@@ -41,12 +41,12 @@
    "type": "compare",
    "tag": "SENDER",
    "left": {
-    "title": "Real",
-    "text": "support@yourbank.com"
-   },
-   "right": {
     "title": "Suspicious",
     "text": "support@yourbank-help.net"
+   },
+   "right": {
+    "title": "Real",
+    "text": "support@yourbank.com"
    },
    "say": "Look closely at the sender address. Extra words or a different ending are a warning sign.",
    "pad": 0.5
