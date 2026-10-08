@@ -1,0 +1,69 @@
+{
+ "id": "reel-16-schedule-send",
+ "theme": "light",
+ "cover": {
+  "lines": [
+   "Write now,",
+   "send later",
+   "in Gmail"
+  ],
+  "hl": [
+   1
+  ],
+  "pill": "Free tip"
+ },
+ "caption": "Write the email now, send it at the right time. \u23f0\n\nIn Gmail: click the arrow next to Send, then choose Schedule send.\n\nGreat for late-night drafts and reminders. \ud83d\udccc Save this.\n\nFollow @techmendly for a new tech tip every day.\n\n#gmail #productivity #emailtips #timemanagement #worksmarter #lifehack #workfromhome #emailproductivity #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "PRODUCTIVITY",
+   "text": "Writing emails at midnight? Don't send them then.",
+   "hl": [
+    "midnight"
+   ],
+   "sub": "Schedule them instead.",
+   "say": "Writing emails at midnight? Do not send them then. Schedule them instead.",
+   "pad": 0.3
+  },
+  {
+   "type": "steps",
+   "tag": "IN GMAIL",
+   "title": "Schedule send",
+   "items": [
+    "Write your email as normal",
+    "Click the arrow next to Send",
+    "Choose Schedule send"
+   ],
+   "say": "Write your email as normal. Click the small arrow next to Send. Choose Schedule send.",
+   "pad": 0.5
+  },
+  {
+   "type": "steps",
+   "tag": "THEN",
+   "title": "Pick your time",
+   "items": [
+    "Choose a ready-made time",
+    "Or set your own date",
+    "Done. It sends itself"
+   ],
+   "say": "Pick a ready-made time, or set your own date and time. That is it. It sends itself.",
+   "pad": 0.5
+  },
+  {
+   "type": "stat",
+   "tag": "BONUS",
+   "big": "Cancel",
+   "label": "you can unschedule it before it sends",
+   "say": "Bonus, you can cancel a scheduled email before it sends.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Save this for your next late night. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this for your next late night. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}

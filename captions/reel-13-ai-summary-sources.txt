@@ -1,0 +1,9 @@
+AI summaries can miss or twist details. 🤔 Make it show its proof.
+
+Paste this: "Summarize this in 5 bullets. Quote the exact line that supports each one."
+
+Then check the quotes against your text. 📌 Save this prompt.
+
+Follow @techmendly for a new tech tip every day.
+
+#ai #chatgpt #claude #aitools #promptengineering #aitips #productivity #summarize #techtips #techmendly

@@ -1,0 +1,83 @@
+{
+ "id": "reel-14-wp-update-safely",
+ "theme": "teal",
+ "cover": {
+  "lines": [
+   "Update WordPress",
+   "plugins",
+   "without panic"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "WordPress tip"
+ },
+ "caption": "One bad plugin update can break a site. \ud83d\ude2c Do this first:\n\n1. Make a backup\n2. Update one plugin at a time\n3. Open your site and check\n\n\ud83d\udccc Save this checklist.\n\nFollow @techmendly for a new tech tip every day.\n\n#wordpress #wordpresstips #webdesign #website #plugins #webdevelopment #wpadmin #bloggingtips #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "WORDPRESS",
+   "text": "One plugin update can break your whole site.",
+   "hl": [
+    "break"
+   ],
+   "sub": "Here is the safe way.",
+   "say": "One plugin update can break your whole site. Here is the safe way.",
+   "pad": 0.3
+  },
+  {
+   "type": "steps",
+   "tag": "BEFORE",
+   "title": "Before you click Update",
+   "items": [
+    "Make a full backup",
+    "Note which plugins need updates",
+    "Update when traffic is low"
+   ],
+   "say": "First, make a full backup. Note which plugins need updates. Pick a quiet time to do it.",
+   "pad": 0.5
+  },
+  {
+   "type": "compare",
+   "tag": "DON'T",
+   "left": {
+    "title": "Risky",
+    "text": "Update everything at once"
+   },
+   "right": {
+    "title": "Safe",
+    "text": "Update one at a time"
+   },
+   "say": "Do not update everything at once. Update one plugin at a time, so you know which one caused a problem.",
+   "pad": 0.5
+  },
+  {
+   "type": "steps",
+   "tag": "AFTER",
+   "title": "Check after each update",
+   "items": [
+    "Open your home page",
+    "Test a form or checkout",
+    "Look for error messages"
+   ],
+   "say": "After each update, open your home page. Test a form or checkout. Look for error messages.",
+   "pad": 0.5
+  },
+  {
+   "type": "stat",
+   "tag": "IF IT BREAKS",
+   "big": "Restore",
+   "label": "go back to your backup and try again later",
+   "say": "If something breaks, restore your backup and try again later.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Save this checklist. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this checklist. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}

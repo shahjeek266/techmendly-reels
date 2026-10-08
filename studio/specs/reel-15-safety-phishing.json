@@ -1,0 +1,80 @@
+{
+ "id": "reel-15-safety-phishing",
+ "theme": "walk",
+ "cover": {
+  "lines": [
+   "3 signs of a",
+   "phishing",
+   "email"
+  ],
+  "hl": [
+   1
+  ],
+  "pill": "Stay safe"
+ },
+ "caption": "Phishing emails try to rush you. \u26a0\ufe0f Check these 3 things:\n\n1. Sender address matches the real company\n2. Urgent threats or deadlines\n3. Unexpected links or attachments\n\nNot sure? Go to the website yourself, don't click. \ud83d\udccc Save this.\n\nFollow @techmendly for a new tech tip every day.\n\n#cybersecurity #phishing #onlinesafety #scamalert #emailsecurity #staysafeonline #privacy #infosec #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "ONLINE SAFETY",
+   "text": "This email says act now or lose your account.",
+   "hl": [
+    "act now"
+   ],
+   "sub": "Stop. Check three things.",
+   "say": "This email says act now or lose your account. Stop. Check three things.",
+   "pad": 0.3
+  },
+  {
+   "type": "steps",
+   "tag": "CHECK",
+   "title": "3 signs of phishing",
+   "items": [
+    "Odd sender address",
+    "Pressure and threats",
+    "Unexpected links or files"
+   ],
+   "say": "One, an odd sender address. Two, pressure and threats. Three, unexpected links or files.",
+   "pad": 0.5
+  },
+  {
+   "type": "compare",
+   "tag": "SENDER",
+   "left": {
+    "title": "Real",
+    "text": "support@yourbank.com"
+   },
+   "right": {
+    "title": "Suspicious",
+    "text": "support@yourbank-help.net"
+   },
+   "say": "Look closely at the sender address. Extra words or a different ending are a warning sign.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "SAFE MOVE",
+   "chip": "DO THIS",
+   "title": "Skip the link",
+   "code": "Open the official site yourself",
+   "say": "The safe move? Do not click. Open the official website yourself and sign in there.",
+   "pad": 0.5
+  },
+  {
+   "type": "stat",
+   "tag": "IF UNSURE",
+   "big": "Pause",
+   "label": "real companies can wait a minute while you check",
+   "say": "If you are unsure, pause. Real companies can wait a minute while you check.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Share this with someone who clicks too fast. Follow TechMendly for a new tech tip every day.",
+   "shown": "Share this with someone who clicks too fast. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}

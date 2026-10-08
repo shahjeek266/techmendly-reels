@@ -1,0 +1,78 @@
+{
+ "id": "reel-13-ai-summary-sources",
+ "theme": "walk",
+ "cover": {
+  "lines": [
+   "Summarize",
+   "long text with AI,",
+   "safely"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "AI tip"
+ },
+ "caption": "AI summaries can miss or twist details. \ud83e\udd14 Make it show its proof.\n\nPaste this: \"Summarize this in 5 bullets. Quote the exact line that supports each one.\"\n\nThen check the quotes against your text. \ud83d\udccc Save this prompt.\n\nFollow @techmendly for a new tech tip every day.\n\n#ai #chatgpt #claude #aitools #promptengineering #aitips #productivity #summarize #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "AI TIP",
+   "text": "Can you trust an AI summary of a long email?",
+   "hl": [
+    "trust"
+   ],
+   "sub": "Make it show its proof.",
+   "say": "Can you trust an AI summary of a long email? Make it show its proof.",
+   "pad": 0.3
+  },
+  {
+   "type": "tip",
+   "tag": "THE TRICK",
+   "chip": "ADD THIS",
+   "title": "Ask for a quote with every point",
+   "code": "Quote the exact line that supports each point.",
+   "say": "Here is the trick. Ask the AI to quote the exact line that supports each point.",
+   "pad": 0.5
+  },
+  {
+   "type": "chat",
+   "tag": "TRY IT",
+   "title": "AI chat",
+   "user": "Summarize this in 3 bullets. Quote the line behind each one.",
+   "reply": "1. Deadline moved to Friday.\n   Quote: \"We now need it by Friday.\"\n2. Budget is unchanged.\n   Quote: \"No change to budget.\"",
+   "hl": [
+    "Quote"
+   ],
+   "say": "Now every point comes with a quote from your text. Nothing is hidden.",
+   "pad": 0.8
+  },
+  {
+   "type": "steps",
+   "tag": "THEN",
+   "title": "Check before you trust",
+   "items": [
+    "Find each quote in your text",
+    "Drop any point with no match",
+    "Ask for a fix if one is wrong"
+   ],
+   "say": "Find each quote in your original text. Drop any point with no match. Ask for a fix if one is wrong.",
+   "pad": 0.5
+  },
+  {
+   "type": "stat",
+   "tag": "REMEMBER",
+   "big": "Verify",
+   "label": "AI can miss or twist details, so check the quotes",
+   "say": "Remember, AI can miss or twist details. So always check the quotes.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Save this prompt for later. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this prompt for later. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}
