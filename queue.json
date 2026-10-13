@@ -95,6 +95,10 @@
     {
       "id": "reel-17-ai-private-data",
       "status": "pending"
+    },
+    {
+      "id": "reel-18-wp-spam-comments",
+      "status": "pending"
     }
   ]
 }
