@@ -1,0 +1,71 @@
+{
+ "id": "reel-19-safety-breach-check",
+ "theme": "teal",
+ "cover": {
+  "lines": [
+   "Was your email",
+   "in a data",
+   "breach?"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "Stay safe"
+ },
+ "caption": "Check if your email appeared in a known data breach. 🔍\n\nGo to haveibeenpwned.com (a free, well-known service), type your email, and read the result.\n\nIf it shows up: change that password and turn on two-factor. 📌 Save this.\n\nFollow @techmendly for a new tech tip every day.\n\n#cybersecurity #onlinesafety #databreach #passwords #privacy #infosec #staysafeonline #2fa #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "ONLINE SAFETY",
+   "text": "Has your email ever leaked in a data breach?",
+   "hl": [
+    "leaked"
+   ],
+   "sub": "You can check in ten seconds.",
+   "say": "Has your email ever leaked in a data breach? You can check in ten seconds.",
+   "pad": 0.3
+  },
+  {
+   "type": "steps",
+   "tag": "HOW",
+   "title": "Run the free check",
+   "items": [
+    "Visit haveibeenpwned.com",
+    "Type in your email address",
+    "Read the result"
+   ],
+   "say": "Visit Have I Been Pwned dot com. Type in your email address. Read the result.",
+   "shown": "Visit haveibeenpwned.com. Type in your email address. Read the result.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "RESULT",
+   "chip": "READ IT",
+   "title": "No breach? Good. Found? Act.",
+   "body": "Even a clean result is worth rechecking now and then.",
+   "say": "No breach found? Good. Check again now and then. Breach found? Time to act.",
+   "pad": 0.5
+  },
+  {
+   "type": "steps",
+   "tag": "IF FOUND",
+   "title": "Fix it fast",
+   "items": [
+    "Change that account password",
+    "Never reuse it elsewhere",
+    "Turn on two-factor"
+   ],
+   "say": "Change the password for that account. Never reuse it anywhere else. And turn on two-factor.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Save this for later. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this for later. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}

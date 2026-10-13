@@ -1,0 +1,79 @@
+{
+ "id": "reel-18-wp-spam-comments",
+ "theme": "dark",
+ "cover": {
+  "lines": [
+   "Spam comments",
+   "filling your",
+   "WordPress?"
+  ],
+  "hl": [
+   0
+  ],
+  "pill": "WordPress fix"
+ },
+ "caption": "Spam comments piling up? 🧹 Three simple settings:\n\n1️⃣ Settings > Discussion > hold comments for approval\n2️⃣ Install an anti-spam plugin like Akismet\n3️⃣ Turn off comments on pages that don't need them\n\n📌 Save this checklist.\n\nFollow @techmendly for a new tech tip every day.\n\n#wordpress #wordpresstips #spam #website #webdesign #blogging #wpadmin #websecurity #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "WORDPRESS",
+   "text": "Spam comments are flooding your WordPress site?",
+   "hl": [
+    "Spam"
+   ],
+   "sub": "Three settings stop most of it.",
+   "say": "Spam comments are flooding your WordPress site? Three settings stop most of it.",
+   "pad": 0.3
+  },
+  {
+   "type": "steps",
+   "tag": "FIX 1",
+   "title": "Hold comments for approval",
+   "items": [
+    "Open Settings, then Discussion",
+    "Tick the approval options",
+    "Nothing shows until you say so"
+   ],
+   "say": "One. Go to Settings, then Discussion. Choose to hold comments for approval. Nothing shows until you say so.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "FIX 2",
+   "chip": "PLUGIN",
+   "title": "Add an anti-spam plugin",
+   "body": "A free one like Akismet filters spam for you.",
+   "say": "Two. Add an anti-spam plugin. A free one like Akismet filters spam for you.",
+   "shown": "Two. Add an anti-spam plugin. A free one like Akismet filters spam for you.",
+   "pad": 0.5
+  },
+  {
+   "type": "steps",
+   "tag": "FIX 3",
+   "title": "Turn comments off where unneeded",
+   "items": [
+    "Keep them on blog posts",
+    "Switch them off on pages",
+    "Fewer open doors for spam"
+   ],
+   "say": "Three. Turn comments off where you do not need them. Keep them for blog posts, switch them off on pages.",
+   "pad": 0.5
+  },
+  {
+   "type": "stat",
+   "tag": "CLEAN UP",
+   "big": "Trash",
+   "label": "delete the spam already waiting",
+   "say": "Finally, empty the spam folder to clear what is already there.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Save this checklist. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this checklist. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}

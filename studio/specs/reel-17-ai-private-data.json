@@ -1,0 +1,80 @@
+{
+ "id": "reel-17-ai-private-data",
+ "theme": "walk",
+ "cover": {
+  "lines": [
+   "Pasting work",
+   "into AI?",
+   "Do this first"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "AI tip"
+ },
+ "caption": "Before you paste text into an AI chat, swap private details for placeholders. 🔒\n\nTry: \"Rewrite this email. I replaced real details with [NAME] and [AMOUNT].\"\n\nThen fill the real details back in yourself. 📌 Save this habit.\n\nFollow @techmendly for a new tech tip every day.\n\n#ai #chatgpt #claude #aitools #privacy #aitips #dataprivacy #productivity #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "AI TIP",
+   "text": "Think before you paste work emails into AI.",
+   "hl": [
+    "paste"
+   ],
+   "sub": "Swap the private bits first.",
+   "say": "Think before you paste work emails into AI. Swap the private bits first.",
+   "pad": 0.3
+  },
+  {
+   "type": "steps",
+   "tag": "STEP 1",
+   "title": "Find the private details",
+   "items": [
+    "Names and phone numbers",
+    "Addresses and account info",
+    "Anything you would not post"
+   ],
+   "say": "First, spot the private details. Names, phone numbers, addresses, account info. Anything you would not post publicly.",
+   "pad": 0.5
+  },
+  {
+   "type": "chat",
+   "tag": "STEP 2",
+   "title": "AI chat",
+   "user": "Rewrite this email politely. [NAME] owes us [AMOUNT] by [DATE].",
+   "reply": "Hi [NAME],\nA friendly reminder that\n[AMOUNT] is due by [DATE].\nThank you!",
+   "hl": [
+    "[NAME]",
+    "[AMOUNT]"
+   ],
+   "say": "Second, replace them with placeholders in square brackets. The AI still writes a great draft.",
+   "shown": "Second, replace them with placeholders in square brackets. The AI still writes a great draft.",
+   "pad": 0.8
+  },
+  {
+   "type": "tip",
+   "tag": "STEP 3",
+   "chip": "FINISH",
+   "title": "Fill in the real details yourself",
+   "body": "Do it in your own email, not in the chat.",
+   "say": "Third, type the real details back in yourself, in your own email, not in the chat.",
+   "pad": 0.5
+  },
+  {
+   "type": "stat",
+   "tag": "REMEMBER",
+   "big": "Swap",
+   "label": "private details for placeholders",
+   "say": "Placeholders keep private info out of the chat. Easy habit, real protection.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Save this habit. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this habit. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "id": "reel-20-screenshot-shortcut",
+ "theme": "walk",
+ "cover": {
+  "lines": [
+   "Screenshot",
+   "part of your",
+   "screen fast"
+  ],
+  "hl": [
+   0
+  ],
+  "pill": "Free tip"
+ },
+ "caption": "Capture just the part you need. 📸\n\nWindows: press Windows + Shift + S\nMac: press Command + Shift + 4\n\nDrag over the area you want. 📌 Save this shortcut.\n\nFollow @techmendly for a new tech tip every day.\n\n#productivity #shortcuts #windows #mac #screenshot #techtips #lifehack #worksmarter #computertips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "PRODUCTIVITY",
+   "text": "Stop screenshotting the whole screen every time.",
+   "hl": [
+    "whole"
+   ],
+   "sub": "Grab only what you need.",
+   "say": "Stop screenshotting the whole screen every time. Grab only what you need.",
+   "pad": 0.3
+  },
+  {
+   "type": "tip",
+   "tag": "WINDOWS",
+   "chip": "SHORTCUT",
+   "title": "Windows",
+   "code": "Windows + Shift + S",
+   "body": "Then drag over the area.",
+   "say": "On Windows, press the Windows key, Shift, and S. Then drag over the area you want.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "MAC",
+   "chip": "SHORTCUT",
+   "title": "Mac",
+   "code": "Command + Shift + 4",
+   "body": "Then drag over the area.",
+   "say": "On a Mac, press Command, Shift, and 4. Then drag over the area you want.",
+   "pad": 0.5
+  },
+  {
+   "type": "stat",
+   "tag": "BONUS",
+   "big": "Paste",
+   "label": "on Windows it is ready to paste right away",
+   "say": "Bonus, on Windows the capture is ready to paste into a chat or document right away.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Save this shortcut. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this shortcut. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}

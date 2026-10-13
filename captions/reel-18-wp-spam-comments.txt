@@ -1,0 +1,11 @@
+Spam comments piling up? 🧹 Three simple settings:
+
+1️⃣ Settings > Discussion > hold comments for approval
+2️⃣ Install an anti-spam plugin like Akismet
+3️⃣ Turn off comments on pages that don't need them
+
+📌 Save this checklist.
+
+Follow @techmendly for a new tech tip every day.
+
+#wordpress #wordpresstips #spam #website #webdesign #blogging #wpadmin #websecurity #techtips #techmendly
