@@ -1,0 +1,9 @@
+Check if your email appeared in a known data breach. 🔍
+
+Go to haveibeenpwned.com (a free, well-known service), type your email, and read the result.
+
+If it shows up: change that password and turn on two-factor. 📌 Save this.
+
+Follow @techmendly for a new tech tip every day.
+
+#cybersecurity #onlinesafety #databreach #passwords #privacy #infosec #staysafeonline #2fa #techtips #techmendly
