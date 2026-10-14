@@ -94,7 +94,9 @@
     },
     {
       "id": "reel-16-schedule-send",
-      "status": "pending"
+      "status": "posted",
+      "posted_at": "2026-10-14T13:56:53Z",
+      "permalink": "https://www.instagram.com/reel/DeeipQJjz9U/"
     },
     {
       "id": "reel-17-ai-private-data",
