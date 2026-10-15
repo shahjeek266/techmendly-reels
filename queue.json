@@ -127,6 +127,10 @@
     {
       "id": "reel-23-safety-password-manager",
       "status": "pending"
+    },
+    {
+      "id": "reel-24-auto-form-alert",
+      "status": "pending"
     }
   ]
 }
