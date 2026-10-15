@@ -23,6 +23,7 @@
 - Screenshot part of the screen shortcut [reel-20-screenshot-shortcut]
 - WordPress stuck in maintenance mode (.maintenance file) [reel-21-wp-maintenance-stuck]
 - AI as editor: grammar-only proofreading prompt [reel-22-ai-proofread]
+- Password manager instead of one password everywhere [reel-23-safety-password-manager]
 
 ## Idea bank (pick fresh ones; add more yourself)
 AI (already used 'who/what/how' and 'show an example'; avoid near-duplicates): make AI ask you questions first; ask AI to critique its own answer; give AI an example of the format you want; use AI to summarize a long PDF or email safely; AI for meeting notes and action items; "act as an editor" proofreading prompt; why AI makes things up and how to check; keep private data out of AI chats; compare AI answers by asking the same prompt twice; turn rough notes into a clean email.

@@ -123,6 +123,10 @@
     {
       "id": "reel-22-ai-proofread",
       "status": "pending"
+    },
+    {
+      "id": "reel-23-safety-password-manager",
+      "status": "pending"
     }
   ]
 }
