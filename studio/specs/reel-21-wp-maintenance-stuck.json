@@ -1,0 +1,75 @@
+{
+ "id": "reel-21-wp-maintenance-stuck",
+ "theme": "light",
+ "cover": {
+  "lines": [
+   "WordPress stuck",
+   "in maintenance",
+   "mode?"
+  ],
+  "hl": [
+   1
+  ],
+  "pill": "WordPress fix"
+ },
+ "caption": "Site stuck on \"Briefly unavailable for scheduled maintenance\"? 🔧\n\n1️⃣ Open your host's File Manager (or FTP)\n2️⃣ In the site's main folder, find the hidden file named .maintenance\n3️⃣ Delete it, then reload the site\n\n📌 Save this for the next update scare.\n\nFollow @techmendly for a new tech tip every day.\n\n#wordpress #wordpresstips #wordpressfix #website #webdesign #wpadmin #maintenance #troubleshooting #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "WORDPRESS",
+   "text": "Site stuck on \"briefly unavailable for maintenance\"?",
+   "hl": [
+    "stuck"
+   ],
+   "sub": "The fix takes one minute.",
+   "say": "Site stuck on \"briefly unavailable for maintenance\"? The fix takes one minute.",
+   "pad": 0.3
+  },
+  {
+   "type": "myth_fact",
+   "tag": "RELAX",
+   "myth": "Your site is broken for good.",
+   "fact": "An interrupted update left a small file behind.",
+   "say": "Don't panic. An interrupted update just left a small file behind.",
+   "pad": 0.5
+  },
+  {
+   "type": "steps",
+   "tag": "THE FIX",
+   "title": "Delete one file",
+   "items": [
+    "Open File Manager or FTP",
+    "Go to your site's main folder",
+    "Find the file .maintenance",
+    "Delete it"
+   ],
+   "say": "Open your host's file manager or FTP. Go to your site's main folder. Find the file named dot maintenance. Delete it.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "HEADS UP",
+   "chip": "HIDDEN FILE",
+   "title": "Can't see it? Show hidden files",
+   "body": "Files starting with a dot are hidden by default.",
+   "say": "Can't see it? Turn on show hidden files. Names starting with a dot are hidden by default.",
+   "pad": 0.5
+  },
+  {
+   "type": "stat",
+   "tag": "DONE",
+   "big": "Reload",
+   "label": "your site is back",
+   "say": "Reload your site. It should be back. Then run the update again.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Save this for the next update scare. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this for the next update scare. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}

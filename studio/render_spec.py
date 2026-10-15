@@ -77,8 +77,8 @@ def sc_hook(d, th, s, f, lt):
 def sc_myth_fact(d, th, s, f, lt):
     for i, (tag, key, c, f0) in enumerate([("MYTH", "myth", RED, 0.05), ("FACT", "fact", GRN, 0.45)]):
         a = ease((f - f0) / 0.15); sl = (1 - a) * 80
-        y = 400 + i * 540 + sl
-        d.rounded_rectangle((70, y, 1010, y + 470), radius=44, fill=col(th["card"], a), outline=col(c, a), width=5)
+        y = 380 + i * 450 + sl
+        d.rounded_rectangle((70, y, 1010, y + 400), radius=44, fill=col(th["card"], a), outline=col(c, a), width=5)
         d.rounded_rectangle((110, y + 36, 110 + 40 + tw(d, tag, F(POP_B, 40)), y + 106), radius=35, fill=col(c, a))
         d.text((130, y + 46), tag, font=F(POP_B, 40), fill=col((255, 255, 255), a))
         fb = F(POP_B, 58 if len(s[key]) < 70 else 50)

@@ -1,0 +1,11 @@
+Site stuck on "Briefly unavailable for scheduled maintenance"? 🔧
+
+1️⃣ Open your host's File Manager (or FTP)
+2️⃣ In the site's main folder, find the hidden file named .maintenance
+3️⃣ Delete it, then reload the site
+
+📌 Save this for the next update scare.
+
+Follow @techmendly for a new tech tip every day.
+
+#wordpress #wordpresstips #wordpressfix #website #webdesign #wpadmin #maintenance #troubleshooting #techtips #techmendly

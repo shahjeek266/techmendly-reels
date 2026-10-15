@@ -1,0 +1,74 @@
+{
+ "id": "reel-22-ai-proofread",
+ "theme": "walk",
+ "cover": {
+  "lines": [
+   "Proofread",
+   "anything with",
+   "AI"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "AI tip"
+ },
+ "caption": "Use AI as your personal editor. ✍️\n\nTry: \"Act as a careful editor. Fix spelling and grammar only. Do not change my meaning or tone. List what you changed.\"\n\nThe last line lets you check every edit. 📌 Save this prompt.\n\nFollow @techmendly for a new tech tip every day.\n\n#ai #chatgpt #claude #aitools #aitips #proofreading #writingtips #productivity #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "AI TIP",
+   "text": "Your emails have typos you never notice.",
+   "hl": [
+    "typos"
+   ],
+   "sub": "Let AI be your editor.",
+   "say": "Your emails have typos you never notice. Let AI be your editor.",
+   "pad": 0.3
+  },
+  {
+   "type": "chat",
+   "tag": "THE PROMPT",
+   "title": "AI chat",
+   "user": "Act as an editor. Fix spelling and grammar only. List every change.",
+   "reply": "Done. 3 changes:\n1. recieve → receive\n2. Added a missing comma\n3. its → it's",
+   "hl": [
+    "editor",
+    "only"
+   ],
+   "say": "Type this. Act as an editor. Fix spelling and grammar only. List every change.",
+   "shown": "Type this. Act as an editor. Fix spelling and grammar only. List every change.",
+   "pad": 0.8
+  },
+  {
+   "type": "compare",
+   "tag": "WHY",
+   "left": {
+    "title": "Vague ask",
+    "text": "\"Improve this\" may rewrite your voice."
+   },
+   "right": {
+    "title": "Clear limits",
+    "text": "\"Grammar only\" keeps your voice."
+   },
+   "say": "Why does this work? A vague ask may rewrite your whole voice. Clear limits keep your words yours.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "CHECK",
+   "chip": "LAST STEP",
+   "title": "Read the change list",
+   "body": "Accept what you agree with. You stay in control.",
+   "say": "Then read the change list. Accept what you agree with. You stay in control.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Save this prompt. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this prompt. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}

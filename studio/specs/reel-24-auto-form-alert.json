@@ -1,0 +1,96 @@
+{
+ "id": "reel-24-auto-form-alert",
+ "theme": "walk",
+ "cover": {
+  "lines": [
+   "Get a ping",
+   "for every new",
+   "form entry"
+  ],
+  "hl": [
+   1
+  ],
+  "pill": "Free automation"
+ },
+ "caption": "Never miss a contact form message again. 📲\n\nIn a free automation tool like Zapier or Make:\n1️⃣ Trigger: new form entry\n2️⃣ Action: send yourself a message\n3️⃣ Turn it on\n\n📌 Save this setup.\n\nFollow @techmendly for a new tech tip every day.\n\n#automation #nocode #zapier #make #productivity #smallbusiness #workflow #websitetips #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "AUTOMATION",
+   "text": "Do you check your contact form by hand?",
+   "hl": [
+    "by hand"
+   ],
+   "sub": "Let it message you instead.",
+   "say": "Do you check your contact form by hand? Let it message you instead.",
+   "pad": 0.3
+  },
+  {
+   "type": "flow",
+   "tag": "THE FLOW",
+   "title": "Automation tool",
+   "cards": [
+    {
+     "kind": "Trigger",
+     "title": "New form entry",
+     "sub": "Contact form",
+     "icon": "F",
+     "color": "blue"
+    },
+    {
+     "kind": "Action",
+     "title": "Send me a message",
+     "sub": "Name and message",
+     "icon": "@",
+     "color": "orange"
+    }
+   ],
+   "say": "Open a free tool like Zapier or Make. Pick a trigger, a new form entry. Add an action, send yourself a message.",
+   "pad": 0.5
+  },
+  {
+   "type": "flow",
+   "tag": "TURN IT ON",
+   "title": "Automation tool",
+   "cards": [
+    {
+     "kind": "Trigger",
+     "title": "New form entry",
+     "sub": "Contact form",
+     "icon": "F",
+     "color": "blue"
+    },
+    {
+     "kind": "Action",
+     "title": "Send me a message",
+     "sub": "Name and message",
+     "icon": "@",
+     "color": "orange"
+    }
+   ],
+   "toggle": {
+    "label": "Automation",
+    "done": "New lead. You got a ping."
+   },
+   "say": "Now switch it on. Every new message reaches you right away.",
+   "pad": 0.8
+  },
+  {
+   "type": "tip",
+   "tag": "BONUS",
+   "chip": "TEST IT",
+   "title": "Send a test entry first",
+   "body": "Make sure the alert really arrives.",
+   "say": "Send a test entry first, to make sure the alert really arrives.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Save this setup. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this setup. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}
