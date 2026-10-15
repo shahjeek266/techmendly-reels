@@ -119,6 +119,10 @@
     {
       "id": "reel-21-wp-maintenance-stuck",
       "status": "pending"
+    },
+    {
+      "id": "reel-22-ai-proofread",
+      "status": "pending"
     }
   ]
 }
