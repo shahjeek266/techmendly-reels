@@ -1,0 +1,13 @@
+Site broke after an update? Find the culprit in minutes. 🔧
+
+1️⃣ Plugins > Installed Plugins > select all > Deactivate
+2️⃣ Reload the site. Fixed? A plugin is the cause.
+3️⃣ Turn plugins back on one at a time, reloading after each
+
+The one that breaks it again is your culprit.
+
+📌 Save this for later.
+
+Follow @techmendly for a new tech tip every day.
+
+#wordpress #wordpresstips #wordpressfix #plugins #website #webdesign #troubleshooting #wpadmin #techtips #techmendly

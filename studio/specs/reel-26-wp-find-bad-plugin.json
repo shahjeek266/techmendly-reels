@@ -31,8 +31,7 @@
    "title": "Turn them all off",
    "items": [
     "Open Plugins",
-    "Select all plugins",
-    "Choose Deactivate",
+    "Select all, then Deactivate",
     "Reload your site"
    ],
    "say": "First, turn them all off. Open Plugins, select all, choose Deactivate, then reload your site.",
@@ -64,8 +63,8 @@
   {
    "type": "tip",
    "tag": "HEADS UP",
-   "chip": "BACKUP FIRST",
-   "title": "Locked out of wp-admin?",
+   "chip": "LOCKED OUT?",
+   "title": "Can't open wp-admin?",
    "body": "Rename the plugins folder using your host's File Manager.",
    "say": "Locked out of your dashboard? Rename the plugins folder in your host's file manager instead.",
    "pad": 0.5

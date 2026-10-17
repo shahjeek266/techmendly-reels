@@ -1,0 +1,12 @@
+Stop fighting weird fonts and colors when you paste. ⌨️
+
+Windows: Ctrl + Shift + V
+Mac: Command + Shift + V (works in most apps)
+
+It pastes the text only, matching the place you paste into. In Word on Mac, use the Paste Options button instead.
+
+📌 Save this.
+
+Follow @techmendly for a new tech tip every day.
+
+#shortcuts #keyboardshortcuts #productivity #windows #mac #techtips #lifehack #workflow #learnontiktok #techmendly
