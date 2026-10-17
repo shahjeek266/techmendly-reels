@@ -1,0 +1,72 @@
+{
+ "id": "reel-25-ai-meeting-notes",
+ "theme": "teal",
+ "cover": {
+  "lines": [
+   "Messy notes",
+   "to action items",
+   "in 10 seconds"
+  ],
+  "hl": [
+   1
+  ],
+  "pill": "AI tip"
+ },
+ "caption": "Turn messy meeting notes into a clear plan. 📝\n\nPaste your notes and ask: \"Sort these into decisions, action items (owner and date), and open questions. Use only what is in the notes.\"\n\nThe last sentence stops AI from inventing tasks. 📌 Save this prompt.\n\nFollow @techmendly for a new tech tip every day.\n\n#ai #chatgpt #claude #aitips #aitools #meetingnotes #productivity #worksmarter #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "AI TIP",
+   "text": "Nobody reads your meeting notes. Fix that.",
+   "hl": [
+    "notes"
+   ],
+   "sub": "Let AI sort them for you.",
+   "say": "Nobody reads your meeting notes. Fix that. Let AI sort them for you.",
+   "pad": 0.3
+  },
+  {
+   "type": "chat",
+   "tag": "THE PROMPT",
+   "title": "AI chat",
+   "user": "Sort these notes: decisions, action items with owner, open questions.",
+   "reply": "Decisions:\n- Launch moves to May\nActions:\n- Sara: update the site\n- Ali: send the invoice\nOpen: who owns support?",
+   "hl": [
+    "decisions",
+    "owner"
+   ],
+   "say": "Paste your notes, then type this. Sort these notes into decisions, action items with an owner, and open questions.",
+   "shown": "Paste your notes, then type this. Sort these notes into decisions, action items with an owner, and open questions.",
+   "pad": 0.8
+  },
+  {
+   "type": "tip",
+   "tag": "GUARDRAIL",
+   "chip": "ADD THIS LINE",
+   "title": "Use only what is in the notes",
+   "body": "Stops AI from inventing tasks or dates.",
+   "say": "Add one more line. Use only what is in the notes. That stops AI from inventing tasks or dates.",
+   "pad": 0.5
+  },
+  {
+   "type": "steps",
+   "tag": "AFTER",
+   "title": "Before you share it",
+   "items": [
+    "Check every name",
+    "Check every date",
+    "Remove private details"
+   ],
+   "say": "Before you share it, check every name, check every date, and remove private details.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Save this prompt. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this prompt. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "id": "reel-27-safety-check-link",
+ "theme": "dark",
+ "cover": {
+  "lines": [
+   "Check a link",
+   "before you",
+   "click it"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "Stay safe"
+ },
+ "caption": "Before you click, look at where a link really goes. 🔗\n\n💻 On a computer: hover over the link and read the address in the corner\n📱 On a phone: press and hold the link to preview it\n\nRead the domain right before the first single slash. Look for swapped letters, like rn instead of m.\n\n📌 Save this.\n\nFollow @techmendly for a new tech tip every day.\n\n#cybersecurity #onlinesafety #phishing #scamalert #internetsafety #staysafeonline #techtips #privacy #securitytips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "STAY SAFE",
+   "text": "The link text can say anything. The address can't.",
+   "hl": [
+    "address"
+   ],
+   "sub": "Check it before you click.",
+   "say": "The link text can say anything. The address can't. Check it before you click.",
+   "pad": 0.3
+  },
+  {
+   "type": "steps",
+   "tag": "HOW TO LOOK",
+   "title": "See the real address",
+   "items": [
+    "Computer: hover over the link",
+    "Phone: press and hold",
+    "Read the address shown"
+   ],
+   "say": "On a computer, hover over the link. On a phone, press and hold it. Then read the address that shows up.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "THE TRICK",
+   "chip": "READ THIS PART",
+   "title": "The name right before the first single slash",
+   "body": "In mybank.example.com/login, the real site is example.com.",
+   "say": "Read the name right before the first single slash. That is the real website. Everything in front of it is just decoration.",
+   "shown": "Read the name right before the first single slash. That is the real website. Everything in front of it is just decoration.",
+   "pad": 0.5
+  },
+  {
+   "type": "myth_fact",
+   "tag": "MYTH",
+   "myth": "A padlock means the site is safe.",
+   "fact": "It only means the connection is encrypted. Scam sites have it too.",
+   "say": "A padlock does not mean a site is safe. It only means the connection is encrypted. Scam sites have it too.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "SAFEST",
+   "chip": "WHEN IN DOUBT",
+   "title": "Type the address yourself",
+   "body": "Or open the official app.",
+   "say": "When in doubt, type the address yourself, or open the official app.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Save this. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}

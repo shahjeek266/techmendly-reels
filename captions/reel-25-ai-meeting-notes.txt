@@ -1,0 +1,9 @@
+Turn messy meeting notes into a clear plan. 📝
+
+Paste your notes and ask: "Sort these into decisions, action items (owner and date), and open questions. Use only what is in the notes."
+
+The last sentence stops AI from inventing tasks. 📌 Save this prompt.
+
+Follow @techmendly for a new tech tip every day.
+
+#ai #chatgpt #claude #aitips #aitools #meetingnotes #productivity #worksmarter #techtips #techmendly

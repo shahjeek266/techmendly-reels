@@ -1,0 +1,72 @@
+{
+ "id": "reel-28-paste-plain-text",
+ "theme": "walk",
+ "cover": {
+  "lines": [
+   "Paste text",
+   "without messy",
+   "formatting"
+  ],
+  "hl": [
+   1
+  ],
+  "pill": "Quick tip"
+ },
+ "caption": "Stop fighting weird fonts and colors when you paste. ⌨️\n\nWindows: Ctrl + Shift + V\nMac: Command + Shift + V (works in most apps)\n\nIt pastes the text only, matching the place you paste into. In Word on Mac, use the Paste Options button instead.\n\n📌 Save this.\n\nFollow @techmendly for a new tech tip every day.\n\n#shortcuts #keyboardshortcuts #productivity #windows #mac #techtips #lifehack #workflow #learnontiktok #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "QUICK TIP",
+   "text": "Why does pasted text bring its ugly fonts along?",
+   "hl": [
+    "fonts"
+   ],
+   "sub": "One shortcut fixes it.",
+   "say": "Why does pasted text bring its ugly fonts along? One shortcut fixes it.",
+   "pad": 0.3
+  },
+  {
+   "type": "compare",
+   "tag": "BEFORE",
+   "left": {
+    "title": "Normal paste",
+    "text": "Copies fonts, sizes and colors too."
+   },
+   "right": {
+    "title": "Plain paste",
+    "text": "Text only. Matches your page."
+   },
+   "say": "A normal paste copies the fonts, sizes and colors too. A plain paste brings the text only.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "WINDOWS",
+   "chip": "SHORTCUT",
+   "title": "Ctrl + Shift + V",
+   "code": "Ctrl + Shift + V",
+   "body": "Works in most browsers and apps.",
+   "say": "On Windows, press Control Shift V.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "MAC",
+   "chip": "SHORTCUT",
+   "title": "Command + Shift + V",
+   "code": "Cmd + Shift + V",
+   "body": "Works in most apps.",
+   "say": "On a Mac, press Command Shift V in most apps.",
+   "shown": "On a Mac, press Command Shift V in most apps.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Save this shortcut. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this shortcut. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}

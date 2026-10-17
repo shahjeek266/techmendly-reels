@@ -1,0 +1,82 @@
+{
+ "id": "reel-26-wp-find-bad-plugin",
+ "theme": "light",
+ "cover": {
+  "lines": [
+   "Which plugin",
+   "broke your",
+   "WordPress site?"
+  ],
+  "hl": [
+   1
+  ],
+  "pill": "WordPress fix"
+ },
+ "caption": "Site broke after an update? Find the culprit in minutes. 🔧\n\n1️⃣ Plugins > Installed Plugins > select all > Deactivate\n2️⃣ Reload the site. Fixed? A plugin is the cause.\n3️⃣ Turn plugins back on one at a time, reloading after each\n\nThe one that breaks it again is your culprit.\n\n📌 Save this for later.\n\nFollow @techmendly for a new tech tip every day.\n\n#wordpress #wordpresstips #wordpressfix #plugins #website #webdesign #troubleshooting #wpadmin #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "WORDPRESS",
+   "text": "One plugin is breaking your site. Which one?",
+   "hl": [
+    "One plugin"
+   ],
+   "sub": "Find it in minutes.",
+   "say": "One plugin is breaking your site. Which one? Find it in minutes.",
+   "pad": 0.3
+  },
+  {
+   "type": "steps",
+   "tag": "STEP 1",
+   "title": "Turn them all off",
+   "items": [
+    "Open Plugins",
+    "Select all plugins",
+    "Choose Deactivate",
+    "Reload your site"
+   ],
+   "say": "First, turn them all off. Open Plugins, select all, choose Deactivate, then reload your site.",
+   "pad": 0.5
+  },
+  {
+   "type": "compare",
+   "tag": "STEP 2",
+   "left": {
+    "title": "Still broken",
+    "text": "Not a plugin. Check your theme."
+   },
+   "right": {
+    "title": "Fixed",
+    "text": "A plugin is the cause. Keep going."
+   },
+   "say": "Still broken? It is not a plugin, so check your theme. Fixed? A plugin is the cause.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "STEP 3",
+   "chip": "ONE AT A TIME",
+   "title": "Turn them back on, one by one",
+   "body": "Reload after each. The one that breaks it is your culprit.",
+   "say": "Now turn them back on one at a time. Reload after each one. The plugin that breaks the site is your culprit.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "HEADS UP",
+   "chip": "BACKUP FIRST",
+   "title": "Locked out of wp-admin?",
+   "body": "Rename the plugins folder using your host's File Manager.",
+   "say": "Locked out of your dashboard? Rename the plugins folder in your host's file manager instead.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Save this for the next site scare. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this for the next site scare. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}
