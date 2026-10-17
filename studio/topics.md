@@ -27,6 +27,7 @@
 - No-code alert for every new contact form entry [reel-24-auto-form-alert]
 - AI turns messy meeting notes into decisions and action items [reel-25-ai-meeting-notes]
 - Find which plugin breaks WordPress (deactivate all, re-enable one by one) [reel-26-wp-find-bad-plugin]
+- Check where a link really goes before clicking [reel-27-safety-check-link]
 
 ## Idea bank (pick fresh ones; add more yourself)
 AI (already used 'who/what/how' and 'show an example'; avoid near-duplicates): make AI ask you questions first; ask AI to critique its own answer; give AI an example of the format you want; use AI to summarize a long PDF or email safely; AI for meeting notes and action items; "act as an editor" proofreading prompt; why AI makes things up and how to check; keep private data out of AI chats; compare AI answers by asking the same prompt twice; turn rough notes into a clean email.

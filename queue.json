@@ -145,6 +145,10 @@
     {
       "id": "reel-26-wp-find-bad-plugin",
       "status": "pending"
+    },
+    {
+      "id": "reel-27-safety-check-link",
+      "status": "pending"
     }
   ]
 }
