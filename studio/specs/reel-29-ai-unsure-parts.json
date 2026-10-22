@@ -1,0 +1,13 @@
+{
+ "id": "reel-29-ai-unsure-parts",
+ "theme": "light",
+ "cover": {"lines": ["Is the AI", "answer right?", "Ask it this"], "hl": [2], "pill": "AI tip"},
+ "caption": "AI sounds confident even when it is guessing. 🤔\n\nAfter any answer, ask: \"Which parts of this are you least sure about, and how can I check them?\"\n\nThen verify names, numbers and dates yourself. 📌 Save this prompt.\n\nFollow @techmendly for a new tech tip every day.\n\n#ai #chatgpt #claude #aitips #aitools #factcheck #promptengineering #productivity #techtips #techmendly",
+ "scenes": [
+  {"type": "hook", "tag": "AI TIP", "text": "AI sounds sure even when it is guessing.", "hl": ["guessing"], "sub": "Here is how to catch it.", "say": "AI sounds sure even when it is guessing. Here is how to catch it.", "pad": 0.3},
+  {"type": "chat", "tag": "THE PROMPT", "title": "AI chat", "user": "Which parts of that answer are you least sure about?", "reply": "Least sure:\n- The exact date\n- The statistic in point 2\nCheck these in an official source.", "hl": ["least sure"], "say": "After any answer, type this. Which parts of that answer are you least sure about?", "pad": 0.8},
+  {"type": "myth_fact", "tag": "REMEMBER", "myth": "If AI sounds confident, it is correct.", "fact": "A confident tone says nothing about accuracy. Always check key facts.", "say": "A confident tone says nothing about accuracy. Always check the key facts.", "pad": 0.5},
+  {"type": "steps", "tag": "CHECK", "title": "Always verify these", "items": ["Names", "Numbers and dates", "Quotes and links"], "say": "Always verify names, numbers and dates, and quotes and links before you use them.", "pad": 0.5},
+  {"type": "outro", "text": "Follow @techmendly", "sub": "A new tech tip every day", "say": "Save this prompt. Follow TechMendly for a new tech tip every day.", "shown": "Save this prompt. Follow TechMendly for a new tech tip every day.", "pad": 0.3}
+ ]
+}

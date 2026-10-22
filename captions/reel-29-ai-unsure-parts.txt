@@ -1,0 +1,9 @@
+AI sounds confident even when it is guessing. 🤔
+
+After any answer, ask: "Which parts of this are you least sure about, and how can I check them?"
+
+Then verify names, numbers and dates yourself. 📌 Save this prompt.
+
+Follow @techmendly for a new tech tip every day.
+
+#ai #chatgpt #claude #aitips #aitools #factcheck #promptengineering #productivity #techtips #techmendly
