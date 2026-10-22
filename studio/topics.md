@@ -31,6 +31,7 @@
 - Paste without formatting shortcut [reel-28-paste-plain-text]
 - Ask AI which parts of its answer it is least sure about [reel-29-ai-unsure-parts]
 - Locked out of WordPress: lost password link, spam folder, host support [reel-30-wp-locked-out]
+- Fake delivery text scams: 3 red flags [reel-31-safety-fake-delivery-sms]
 
 ## Idea bank (pick fresh ones; add more yourself)
 AI (already used 'who/what/how' and 'show an example'; avoid near-duplicates): make AI ask you questions first; ask AI to critique its own answer; give AI an example of the format you want; use AI to summarize a long PDF or email safely; AI for meeting notes and action items; "act as an editor" proofreading prompt; why AI makes things up and how to check; keep private data out of AI chats; compare AI answers by asking the same prompt twice; turn rough notes into a clean email.

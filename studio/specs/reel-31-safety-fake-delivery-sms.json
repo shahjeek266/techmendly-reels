@@ -1,0 +1,14 @@
+{
+ "id": "reel-31-safety-fake-delivery-sms",
+ "theme": "teal",
+ "cover": {"lines": ["Fake delivery", "text message?", "3 red flags"], "hl": [2], "pill": "Stay safe"},
+ "caption": "Got a text about a missing package? Check for these red flags: 📦\n1. Urgency (\"pay now or it's returned\")\n2. A link you didn't expect\n3. A request for card details or a small fee\n\nDon't tap. Open the courier's official app or site yourself.\n\nFollow @techmendly for a new tech tip every day.\n\n#cybersecurity #scamalert #smishing #onlinesafety #phishing #staysafeonline #scams #techtips #privacy #techmendly",
+ "scenes": [
+  {"type": "hook", "tag": "SAFETY", "text": "That delivery text might be a scam.", "hl": ["scam"], "sub": "Check these 3 things first.", "say": "That delivery text might be a scam. Check these three things first.", "pad": 0.3},
+  {"type": "steps", "tag": "RED FLAGS", "title": "Be suspicious if it", "items": ["Creates a false hurry", "Has a link you didn't expect", "Asks for card details or a fee"], "say": "Be suspicious if it creates a false hurry, has a link you did not expect, or asks for card details or a small fee.", "pad": 0.5},
+  {"type": "myth_fact", "tag": "MYTH", "myth": "If it knows my name, it must be real.", "fact": "Scammers can buy or guess basic details. A name proves nothing.", "say": "If it knows your name, it must be real? No. Scammers can buy or guess basic details.", "pad": 0.5},
+  {"type": "tip", "tag": "SAFEST", "chip": "DO THIS", "title": "Skip the link. Check the courier's app", "body": "Or type the courier's address yourself.", "say": "Skip the link. Open the courier's official app, or type their website address yourself.", "pad": 0.5},
+  {"type": "tip", "tag": "THEN", "chip": "CLEAN UP", "title": "Delete it and report it", "body": "Use your phone's report spam option.", "say": "Then delete the message, and report it as spam on your phone.", "pad": 0.5},
+  {"type": "outro", "text": "Follow @techmendly", "sub": "A new tech tip every day", "say": "Share this with someone who shops online. Follow TechMendly for a new tech tip every day.", "shown": "Share this with someone who shops online. Follow TechMendly for a new tech tip every day.", "pad": 0.3}
+ ]
+}
