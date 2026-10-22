@@ -1,0 +1,14 @@
+{
+ "id": "reel-30-wp-locked-out",
+ "theme": "walk",
+ "cover": {"lines": ["Locked out of", "WordPress?", "Do this first"], "hl": [2], "pill": "WordPress fix"},
+ "caption": "Forgot your WordPress password? Try this order: 🔑\n1. Click \"Lost your password?\" on the login page\n2. Check spam for the reset email\n3. Still nothing? Ask your host to help reset it\n\nFollow @techmendly for a new tech tip every day.\n\n#wordpress #wordpresstips #wpadmin #website #webdesign #websitetips #webmaster #techtips #troubleshooting #techmendly",
+ "scenes": [
+  {"type": "hook", "tag": "WORDPRESS", "text": "Locked out of your WordPress dashboard?", "hl": ["Locked out"], "sub": "Don't panic. Try this.", "say": "Locked out of your WordPress dashboard? Don't panic. Try this.", "pad": 0.3},
+  {"type": "steps", "tag": "STEP BY STEP", "title": "Get back in", "items": ["Click Lost your password?", "Enter your username or email", "Open the reset email"], "say": "On the login page, click Lost your password. Enter your username or email. Then open the reset email and choose a new password.", "pad": 0.5},
+  {"type": "myth_fact", "tag": "NO EMAIL?", "myth": "The reset email never came, so it's lost.", "fact": "Check your spam folder first. Emails from sites often land there.", "say": "No email? Check your spam folder first. Emails from websites often land there.", "pad": 0.5},
+  {"type": "tip", "tag": "STILL STUCK", "chip": "NEXT STEP", "title": "Ask your hosting support", "body": "They can reset the password for you.", "say": "Still stuck? Ask your hosting support. They can help you reset the password.", "pad": 0.5},
+  {"type": "tip", "tag": "AFTER", "chip": "PROTECT IT", "title": "Save it in a password manager", "body": "So you never get locked out again.", "say": "Once you are in, save the new password in a password manager so you never get locked out again.", "pad": 0.5},
+  {"type": "outro", "text": "Follow @techmendly", "sub": "A new tech tip every day", "say": "Save this for later. Follow TechMendly for a new tech tip every day.", "shown": "Save this for later. Follow TechMendly for a new tech tip every day.", "pad": 0.3}
+ ]
+}

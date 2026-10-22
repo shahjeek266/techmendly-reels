@@ -1,0 +1,8 @@
+Forgot your WordPress password? Try this order: 🔑
+1. Click "Lost your password?" on the login page
+2. Check spam for the reset email
+3. Still nothing? Ask your host to help reset it
+
+Follow @techmendly for a new tech tip every day.
+
+#wordpress #wordpresstips #wpadmin #website #webdesign #websitetips #webmaster #techtips #troubleshooting #techmendly
