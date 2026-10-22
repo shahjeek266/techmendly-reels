@@ -173,6 +173,10 @@
     {
       "id": "reel-31-safety-fake-delivery-sms",
       "status": "pending"
+    },
+    {
+      "id": "reel-32-auto-starred-tasks",
+      "status": "pending"
     }
   ]
 }

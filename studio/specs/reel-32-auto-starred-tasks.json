@@ -1,0 +1,13 @@
+{
+ "id": "reel-32-auto-starred-tasks",
+ "theme": "walk",
+ "cover": {"lines": ["Star an email", "get a to-do", "automatically"], "hl": [2], "pill": "Free, in 3 steps"},
+ "caption": "Never lose an important email again. ✅\n\nIn a free automation tool like Zapier or Make:\n1. Trigger: new starred email\n2. Action: create a task in your to-do app\n3. Turn it on\n\nSave this for later.\n\nFollow @techmendly for a new tech tip every day.\n\n#automation #nocode #zapier #make #productivity #gmail #todolist #worksmarter #techtips #techmendly",
+ "scenes": [
+  {"type": "hook", "tag": "AUTOMATION", "text": "Important emails keep getting buried?", "hl": ["buried"], "sub": "Turn stars into tasks.", "say": "Important emails keep getting buried? Turn stars into tasks.", "pad": 0.3},
+  {"type": "flow", "tag": "THE FLOW", "title": "Automation tool", "cards": [{"kind": "Trigger", "title": "New starred email", "sub": "Your inbox", "icon": "@", "color": "blue"}, {"kind": "Action", "title": "Create a task", "sub": "Subject becomes the title", "icon": "T", "color": "green"}], "say": "Open a free tool like Zapier or Make. Pick a trigger, a new starred email. Add an action, create a task in your to-do app.", "pad": 0.5},
+  {"type": "flow", "tag": "TURN IT ON", "title": "Automation tool", "cards": [{"kind": "Trigger", "title": "New starred email", "sub": "Your inbox", "icon": "@", "color": "blue"}, {"kind": "Action", "title": "Create a task", "sub": "Subject becomes the title", "icon": "T", "color": "green"}], "toggle": {"label": "Automation", "done": "Star it. Task created."}, "say": "Now turn it on. Star an email, and a task appears on your list.", "pad": 0.8},
+  {"type": "tip", "tag": "TIP", "chip": "TEST FIRST", "title": "Star one email to test it", "body": "Check the task shows up before relying on it.", "say": "Star one email to test it, and check the task shows up before you rely on it.", "pad": 0.5},
+  {"type": "outro", "text": "Follow @techmendly", "sub": "A new tech tip every day", "say": "Save this for later. Follow TechMendly for a new tech tip every day.", "shown": "Save this for later. Follow TechMendly for a new tech tip every day.", "pad": 0.3}
+ ]
+}
