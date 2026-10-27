@@ -1,0 +1,75 @@
+{
+ "id": "reel-36-win-clipboard-history",
+ "theme": "walk",
+ "cover": {
+  "lines": [
+   "Copied something",
+   "and lost it?",
+   "One shortcut"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "Free tip"
+ },
+ "caption": "Windows remembers more than your last copy. 📋\n\nPress Windows key + V to open clipboard history. The first time, click Turn on. Then click any item to paste it.\n\nNote: this is for Windows 10 and 11. 📌 Save this.\n\nFollow @techmendly for a new tech tip every day.\n\n#windows #windows11 #shortcuts #productivity #keyboardshortcuts #computertips #lifehack #timesaver #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "PRODUCTIVITY",
+   "text": "Copied something, then copied over it?",
+   "hl": [
+    "copied over it"
+   ],
+   "sub": "Windows can bring it back.",
+   "say": "Copied something, then copied over it? Windows can bring it back.",
+   "pad": 0.3
+  },
+  {
+   "type": "tip",
+   "tag": "WINDOWS",
+   "chip": "SHORTCUT",
+   "title": "Open clipboard history",
+   "code": "Win + V",
+   "say": "Press the Windows key and V together.",
+   "pad": 0.5
+  },
+  {
+   "type": "steps",
+   "tag": "FIRST TIME",
+   "title": "Turn it on once",
+   "items": [
+    "Press Win + V",
+    "Click Turn on",
+    "Copy as usual"
+   ],
+   "say": "The first time, click turn on. After that, just copy as usual.",
+   "pad": 0.5
+  },
+  {
+   "type": "stat",
+   "tag": "THEN",
+   "big": "Click",
+   "label": "any item in the list to paste it",
+   "say": "Later, press Windows and V again, and click any item in the list to paste it.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "HEADS UP",
+   "chip": "PRIVACY",
+   "title": "Don't copy passwords",
+   "body": "Clear the history if you copy anything private.",
+   "say": "One warning. Don't copy passwords, and clear the history if you copy anything private.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Save this for later. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this for later. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "id": "reel-34-wp-compress-images",
+ "theme": "walk",
+ "cover": {
+  "lines": [
+   "Slow WordPress?",
+   "Check your",
+   "image sizes"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "WordPress fix"
+ },
+ "caption": "Huge photos are a top reason pages load slowly. 🐢\n\n1. Resize the photo to the size your page needs\n2. Compress it with a free tool or plugin like Smush\n3. Upload the smaller file\n\nFollow @techmendly for a new tech tip every day.\n\n#wordpress #wordpresstips #websitespeed #imageoptimization #website #webdesign #webmaster #seo #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "WORDPRESS",
+   "text": "Your website feels slow? Look at your photos.",
+   "hl": [
+    "your photos"
+   ],
+   "sub": "Big images are a common cause.",
+   "say": "Your website feels slow? Look at your photos. Big images are a common cause.",
+   "pad": 0.3
+  },
+  {
+   "type": "compare",
+   "tag": "BEFORE UPLOAD",
+   "left": {
+    "title": "Straight from camera",
+    "text": "Huge file, slow page"
+   },
+   "right": {
+    "title": "Resized and compressed",
+    "text": "Small file, fast page"
+   },
+   "say": "A photo straight from your camera is huge. A resized and compressed one loads much faster.",
+   "pad": 0.5
+  },
+  {
+   "type": "steps",
+   "tag": "STEP BY STEP",
+   "title": "Shrink every image",
+   "items": [
+    "Resize to the size you need",
+    "Compress it",
+    "Then upload it"
+   ],
+   "say": "Resize the photo to the size you actually need. Compress it. Then upload it.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "EASIER",
+   "chip": "FREE PLUGIN",
+   "title": "Let a plugin do it for you",
+   "body": "A free plugin like Smush can compress on upload.",
+   "say": "Want it automatic? A free plugin like Smush can compress your images when you upload them.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "CHECK",
+   "chip": "TEST",
+   "title": "Reload the page after",
+   "body": "Make sure the images still look sharp.",
+   "say": "Then reload the page and make sure your images still look sharp.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Save this for later. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this for later. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}

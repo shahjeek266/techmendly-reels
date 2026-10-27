@@ -1,0 +1,70 @@
+{
+ "id": "reel-33-ai-rough-notes-email",
+ "theme": "dark",
+ "cover": {
+  "lines": [
+   "Rough notes?",
+   "AI writes the",
+   "email for you"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "AI tip"
+ },
+ "caption": "Turn messy notes into a clean email in seconds. ✉️\n\nPrompt: \"Turn these notes into a short, polite email. Keep my meaning. Tone: friendly and professional.\" Then paste your notes.\n\nAlways read it before sending, and remove private details first. 📌 Save this prompt.\n\nFollow @techmendly for a new tech tip every day.\n\n#ai #chatgpt #claude #aitips #emailtips #writingtips #productivity #promptengineering #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "AI TIP",
+   "text": "Staring at a blank email for ten minutes?",
+   "hl": [
+    "blank email"
+   ],
+   "sub": "Paste your rough notes instead.",
+   "say": "Staring at a blank email for ten minutes? Paste your rough notes instead.",
+   "pad": 0.3
+  },
+  {
+   "type": "chat",
+   "tag": "THE PROMPT",
+   "title": "AI chat",
+   "user": "Turn these notes into a short, polite email: late invoice, ask for new date",
+   "reply": "Subject: Quick question about the invoice\nHi Sam, I noticed the invoice is overdue.\nCould you share a new payment date?\nThanks so much!",
+   "hl": [
+    "short, polite email"
+   ],
+   "say": "Type turn these notes into a short, polite email, then paste your rough notes.",
+   "shown": "Turn these notes into a short, polite email, then paste your rough notes.",
+   "pad": 0.8
+  },
+  {
+   "type": "steps",
+   "tag": "ADD DETAILS",
+   "title": "Tell the AI three things",
+   "items": [
+    "Who it is for",
+    "The tone you want",
+    "How long it should be"
+   ],
+   "say": "For a better result, tell the AI who it is for, the tone you want, and how long it should be.",
+   "pad": 0.5
+  },
+  {
+   "type": "myth_fact",
+   "tag": "BEFORE YOU SEND",
+   "myth": "The AI email is ready to send.",
+   "fact": "Read it first. Fix names, dates and anything it guessed.",
+   "say": "Before you send, read it. Fix names, dates, and anything the AI guessed.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Save this prompt. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this prompt. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}

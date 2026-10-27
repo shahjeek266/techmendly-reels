@@ -185,6 +185,10 @@
     {
       "id": "reel-32-auto-starred-tasks",
       "status": "pending"
+    },
+    {
+      "id": "reel-33-ai-rough-notes-email",
+      "status": "pending"
     }
   ]
 }

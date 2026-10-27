@@ -1,0 +1,66 @@
+{
+ "id": "reel-35-safety-public-wifi",
+ "theme": "teal",
+ "cover": {
+  "lines": [
+   "Using public",
+   "Wi-Fi?",
+   "Do this first"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "Stay safe"
+ },
+ "caption": "Public Wi-Fi is handy, but you don't control it. 📶\n\n- Skip banking and shopping on it\n- Use your phone's hotspot for important things\n- Turn off auto-connect to open networks\n- Keep your device updated\n\nFollow @techmendly for a new tech tip every day.\n\n#cybersecurity #onlinesafety #publicwifi #wifi #privacy #staysafeonline #techtips #digitalsafety #security #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "ONLINE SAFETY",
+   "text": "Is the free cafe Wi-Fi really safe?",
+   "hl": [
+    "really safe"
+   ],
+   "sub": "Three simple habits help.",
+   "say": "Is the free cafe Wi-Fi really safe? Three simple habits help.",
+   "pad": 0.3
+  },
+  {
+   "type": "myth_fact",
+   "tag": "MYTH",
+   "myth": "If the Wi-Fi has a name I recognize, it is safe.",
+   "fact": "Anyone can create a network with a familiar name. Ask staff for the real one.",
+   "say": "A network with a familiar name is not always safe. Anyone can copy a name. Ask the staff for the real one.",
+   "pad": 0.5
+  },
+  {
+   "type": "steps",
+   "tag": "3 HABITS",
+   "title": "On public Wi-Fi",
+   "items": [
+    "Skip banking and shopping",
+    "Use your phone hotspot instead",
+    "Turn off auto-connect"
+   ],
+   "say": "Skip banking and shopping. Use your phone hotspot for important things. And turn off auto connect for open networks.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "BONUS",
+   "chip": "KEEP UPDATED",
+   "title": "Install device updates",
+   "body": "Updates fix known security holes.",
+   "say": "Bonus tip. Install your device updates. They fix known security holes.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "say": "Save this before your next trip. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this before your next trip. Follow TechMendly for a new tech tip every day.",
+   "pad": 0.3
+  }
+ ]
+}
