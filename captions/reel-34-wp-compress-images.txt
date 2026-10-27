@@ -1,0 +1,9 @@
+Huge photos are a top reason pages load slowly. 🐢
+
+1. Resize the photo to the size your page needs
+2. Compress it with a free tool or plugin like Smush
+3. Upload the smaller file
+
+Follow @techmendly for a new tech tip every day.
+
+#wordpress #wordpresstips #websitespeed #imageoptimization #website #webdesign #webmaster #seo #techtips #techmendly
