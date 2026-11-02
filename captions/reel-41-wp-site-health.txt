@@ -1,0 +1,9 @@
+WordPress has a built-in checkup. 🩺
+
+Dashboard > Tools > Site Health
+- Status tab: critical issues and recommended improvements
+- Info tab: server and version details, handy when asking your host for help
+
+Follow @techmendly for a new tech tip every day.
+
+#wordpress #wordpresstips #website #sitehealth #webmaster #maintenance #webdev #techtips #bloggingtips #techmendly
