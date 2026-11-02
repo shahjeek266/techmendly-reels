@@ -1,0 +1,74 @@
+{
+ "id": "reel-40-safety-app-permissions",
+ "theme": "dark",
+ "cover": {
+  "lines": [
+   "Does that app",
+   "need your mic?",
+   "Check now"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "Stay safe"
+ },
+ "caption": "Many apps keep access you gave them long ago. 📱\n\nOpen your phone's privacy or permission settings and review: location, microphone, camera, contacts.\nIf an app doesn't need it, switch it off.\n\nFollow @techmendly for a new tech tip every day.\n\n#cybersecurity #onlinesafety #privacy #smartphone #android #iphone #appsecurity #techtips #digitalsafety #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "ONLINE SAFETY",
+   "text": "Which apps can hear you right now?",
+   "hl": [
+    "hear you"
+   ],
+   "sub": "Check in two minutes.",
+   "say": "Which apps can hear you right now? You can check in two minutes.",
+   "pad": 0.3
+  },
+  {
+   "type": "stat",
+   "tag": "WHY",
+   "big": "4",
+   "label": "permissions worth checking: location, mic, camera, contacts",
+   "say": "Four permissions are worth checking. Location, microphone, camera, and contacts.",
+   "pad": 0.5
+  },
+  {
+   "type": "steps",
+   "tag": "HOW TO",
+   "title": "Review app permissions",
+   "items": [
+    "Open your phone's privacy settings",
+    "Pick a permission, like Microphone",
+    "Switch off apps that don't need it"
+   ],
+   "say": "Open your phone's privacy settings. Pick a permission, like microphone. Then switch off any app that does not need it.",
+   "pad": 0.5
+  },
+  {
+   "type": "myth_fact",
+   "tag": "MYTH",
+   "myth": "If I allowed it once, I have to keep it.",
+   "fact": "You can change any permission at any time.",
+   "say": "Myth. If I allowed it once, I must keep it. Fact. You can change any permission at any time.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "RULE OF THUMB",
+   "chip": "ASK WHY",
+   "title": "Does it need this to work?",
+   "body": "A flashlight app does not need your contacts.",
+   "say": "Rule of thumb. Ask, does it need this to work? A flashlight app does not need your contacts.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "pad": 0.3,
+   "say": "Save this and check your phone tonight. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this and check your phone tonight. Follow TechMendly for a new tech tip every day."
+  }
+ ]
+}

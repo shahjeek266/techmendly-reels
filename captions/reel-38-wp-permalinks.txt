@@ -1,0 +1,8 @@
+Links like ?p=123 look messy and say nothing. 🔗
+
+WordPress dashboard > Settings > Permalinks > choose "Post name" > Save Changes.
+On a live site: back up first, because old links can break.
+
+Follow @techmendly for a new tech tip every day.
+
+#wordpress #wordpresstips #permalinks #seo #website #webdesign #bloggingtips #techtips #webdev #techmendly

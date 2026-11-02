@@ -1,0 +1,75 @@
+{
+ "id": "reel-39-ai-explain-beginner",
+ "theme": "light",
+ "cover": {
+  "lines": [
+   "AI answer too",
+   "complicated?",
+   "Ask for an analogy"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "AI tip"
+ },
+ "caption": "Got an answer full of jargon? 🤯 Tell the AI who you are.\n\nTry: \"Explain [topic] like I'm new to it. Use an everyday analogy.\"\nThen follow up: \"Now give me one real example.\"\n\nFollow @techmendly for a new tech tip every day.\n\n#ai #chatgpt #claude #aitools #promptengineering #aitips #learning #productivity #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "AI TIP",
+   "text": "AI explained it. You still don't get it?",
+   "hl": [
+    "still"
+   ],
+   "sub": "Tell it your level.",
+   "say": "AI explained it, but you still do not get it? Tell it your level.",
+   "pad": 0.3
+  },
+  {
+   "type": "chat",
+   "tag": "TRY THIS",
+   "title": "Ask for a beginner version",
+   "user": "Explain Wi-Fi like I'm new to tech. Use an everyday analogy.",
+   "reply": "Think of your router as a waiter.\nYour devices place orders.\nThe waiter fetches them from the internet kitchen.",
+   "hl": [
+    "waiter"
+   ],
+   "say": "Try this. Explain it like I am new to tech. Use an everyday analogy. Now the answer clicks, because it connects to something you already know.",
+   "pad": 1.0
+  },
+  {
+   "type": "steps",
+   "tag": "3 PARTS",
+   "title": "The magic words",
+   "items": [
+    "Say your level: I'm new to it",
+    "Ask for an analogy",
+    "Ask for one real example"
+   ],
+   "say": "Three parts. Say your level. Ask for an analogy. And ask for one real example.",
+   "pad": 0.5
+  },
+  {
+   "type": "compare",
+   "tag": "THE RESULT",
+   "left": {
+    "title": "No level given",
+    "text": "Jargon and long answers."
+   },
+   "right": {
+    "title": "Level given",
+    "text": "Plain words that fit you."
+   },
+   "say": "Without your level, you get jargon. With it, you get plain words that fit you.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "pad": 0.3,
+   "say": "Save this for your next confusing topic. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this for your next confusing topic. Follow TechMendly for a new tech tip every day."
+  }
+ ]
+}

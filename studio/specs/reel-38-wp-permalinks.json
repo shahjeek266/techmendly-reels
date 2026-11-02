@@ -1,0 +1,81 @@
+{
+ "id": "reel-38-wp-permalinks",
+ "theme": "walk",
+ "cover": {
+  "lines": [
+   "Ugly WordPress",
+   "links?",
+   "Fix them safely"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "WordPress tip"
+ },
+ "caption": "Links like ?p=123 look messy and say nothing. 🔗\n\nWordPress dashboard > Settings > Permalinks > choose \"Post name\" > Save Changes.\nOn a live site: back up first, because old links can break.\n\nFollow @techmendly for a new tech tip every day.\n\n#wordpress #wordpresstips #permalinks #seo #website #webdesign #bloggingtips #techtips #webdev #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "WORDPRESS",
+   "text": "Why does my link say ?p=123?",
+   "hl": [
+    "?p=123"
+   ],
+   "sub": "Clean links take one setting.",
+   "say": "Why does my link say p equals one two three? Clean links take one setting.",
+   "shown": "Why does my link say ?p=123? Clean links take one setting.",
+   "pad": 0.3
+  },
+  {
+   "type": "compare",
+   "tag": "BEFORE / AFTER",
+   "left": {
+    "title": "Plain",
+    "text": "yoursite.com/?p=123"
+   },
+   "right": {
+    "title": "Post name",
+    "text": "yoursite.com/my-post-title"
+   },
+   "say": "A plain link tells nobody anything. A post name link says what the page is about, and is easier to read and share.",
+   "pad": 0.5
+  },
+  {
+   "type": "steps",
+   "tag": "HOW TO",
+   "title": "Change your permalinks",
+   "items": [
+    "Open Settings, then Permalinks",
+    "Pick Post name",
+    "Click Save Changes"
+   ],
+   "say": "Open Settings, then Permalinks. Pick Post name. Click Save Changes.",
+   "pad": 0.5
+  },
+  {
+   "type": "myth_fact",
+   "tag": "CAREFUL",
+   "myth": "It is safe to change on any site, anytime.",
+   "fact": "On a live site, old links can break. Back up first.",
+   "say": "Careful. On a live site, changing this can break old links. Back up first, and set it early on a new site.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "BONUS",
+   "chip": "AFTER SAVING",
+   "title": "Test a few old links",
+   "body": "Open two or three pages to confirm they load.",
+   "say": "Bonus tip. After saving, open a few old pages to confirm they still load.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "pad": 0.3,
+   "say": "Save this for your next site. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this for your next site. Follow TechMendly for a new tech tip every day."
+  }
+ ]
+}

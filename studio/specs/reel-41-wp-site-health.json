@@ -1,0 +1,81 @@
+{
+ "id": "reel-41-wp-site-health",
+ "theme": "walk",
+ "cover": {
+  "lines": [
+   "Is your WordPress",
+   "site healthy?",
+   "Check in 1 click"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "WordPress tip"
+ },
+ "caption": "WordPress has a built-in checkup. 🩺\n\nDashboard > Tools > Site Health\n- Status tab: critical issues and recommended improvements\n- Info tab: server and version details, handy when asking your host for help\n\nFollow @techmendly for a new tech tip every day.\n\n#wordpress #wordpresstips #website #sitehealth #webmaster #maintenance #webdev #techtips #bloggingtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "WORDPRESS",
+   "text": "Does your site need a checkup?",
+   "hl": [
+    "checkup"
+   ],
+   "sub": "WordPress has one built in.",
+   "say": "Does your site need a checkup? WordPress has one built in.",
+   "pad": 0.3
+  },
+  {
+   "type": "steps",
+   "tag": "HOW TO",
+   "title": "Open Site Health",
+   "items": [
+    "Open the WordPress dashboard",
+    "Click Tools",
+    "Click Site Health"
+   ],
+   "say": "Open your WordPress dashboard. Click Tools. Then click Site Health.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "TAB 1",
+   "chip": "STATUS",
+   "title": "Fix critical issues first",
+   "body": "Then work through the recommended improvements.",
+   "say": "On the Status tab, you see critical issues and recommended improvements. Fix the critical ones first.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "TAB 2",
+   "chip": "INFO",
+   "title": "Handy when asking for help",
+   "body": "Shows your versions and server details.",
+   "say": "The Info tab shows your versions and server details. That is handy when you ask your host for help.",
+   "pad": 0.5
+  },
+  {
+   "type": "compare",
+   "tag": "HABIT",
+   "left": {
+    "title": "Wait for a problem",
+    "text": "Fix it in a rush."
+   },
+   "right": {
+    "title": "Check monthly",
+    "text": "Fix it calmly, early."
+   },
+   "say": "Do not wait for a problem. Check once a month and fix things calmly.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "pad": 0.3,
+   "say": "Save this for your monthly check. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this for your monthly check. Follow TechMendly for a new tech tip every day."
+  }
+ ]
+}
