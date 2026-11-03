@@ -207,7 +207,8 @@
     },
     {
       "id": "reel-35-safety-public-wifi",
-      "status": "pending"
+      "status": "failed",
+      "error": "Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
     },
     {
       "id": "reel-36-win-clipboard-history",
