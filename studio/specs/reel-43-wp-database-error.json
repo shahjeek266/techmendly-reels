@@ -42,10 +42,11 @@
    "tag": "CHECK 3",
    "chip": "WP-CONFIG",
    "title": "These four must be correct",
-   "code": "DB_NAME  DB_USER\nDB_PASSWORD  DB_HOST",
+   "code": "DB_NAME / DB_USER / DB_PASSWORD / DB_HOST",
    "say": "In that file, the database name, user, password and host must all match what your host gave you.",
    "shown": "In that file, the database name, user, password and host must all match what your host gave you.",
-   "pad": 0.5
+   "pad": 0.5,
+   "body": "Your host can confirm the right values. Copy them exactly."
   },
   {
    "type": "myth_fact",

@@ -1,0 +1,11 @@
+Seeing "Error establishing a database connection"? Don't panic. 🛠️
+
+1. Wait a minute and refresh (the server may be busy)
+2. Ask your host if the database server is running
+3. Check DB_NAME, DB_USER, DB_PASSWORD and DB_HOST in wp-config.php
+
+Back up before you edit any file.
+
+Follow @techmendly for a new tech tip every day.
+
+#wordpress #wordpresstips #website #webmaster #wpconfig #database #webdev #troubleshooting #techtips #techmendly
