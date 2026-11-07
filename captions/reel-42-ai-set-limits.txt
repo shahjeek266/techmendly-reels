@@ -1,0 +1,8 @@
+Long, padded answers? Give the AI limits. ✂️
+
+Try: "Answer in under 80 words. No intro, no summary. Use plain words."
+Limits make answers shorter and easier to use.
+
+Follow @techmendly for a new tech tip every day.
+
+#ai #chatgpt #claude #aitools #promptengineering #aitips #prompts #productivity #techtips #techmendly

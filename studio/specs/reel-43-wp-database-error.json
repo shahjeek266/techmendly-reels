@@ -1,0 +1,76 @@
+{
+ "id": "reel-43-wp-database-error",
+ "theme": "walk",
+ "cover": {
+  "lines": [
+   "Error establishing",
+   "a database",
+   "connection?"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "WordPress tip"
+ },
+ "caption": "Seeing \"Error establishing a database connection\"? Don't panic. \ud83d\udee0\ufe0f\n\n1. Wait a minute and refresh (the server may be busy)\n2. Ask your host if the database server is running\n3. Check DB_NAME, DB_USER, DB_PASSWORD and DB_HOST in wp-config.php\n\nBack up before you edit any file.\n\nFollow @techmendly for a new tech tip every day.\n\n#wordpress #wordpresstips #website #webmaster #wpconfig #database #webdev #troubleshooting #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "WORDPRESS",
+   "text": "Site says: Error establishing a database connection?",
+   "hl": [
+    "database connection"
+   ],
+   "sub": "Check these three things.",
+   "say": "Your site says, error establishing a database connection? Check these three things.",
+   "pad": 0.3
+  },
+  {
+   "type": "steps",
+   "tag": "3 CHECKS",
+   "title": "Work in this order",
+   "items": [
+    "Wait a minute, then refresh",
+    "Ask your host: is the database up?",
+    "Check wp-config.php details"
+   ],
+   "say": "First, wait a minute and refresh. Second, ask your host if the database server is running. Third, check the details in wp-config dot php.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "CHECK 3",
+   "chip": "WP-CONFIG",
+   "title": "These four must be correct",
+   "code": "DB_NAME  DB_USER\nDB_PASSWORD  DB_HOST",
+   "say": "In that file, the database name, user, password and host must all match what your host gave you.",
+   "shown": "In that file, the database name, user, password and host must all match what your host gave you.",
+   "pad": 0.5
+  },
+  {
+   "type": "myth_fact",
+   "tag": "MYTH",
+   "myth": "My site is gone for good.",
+   "fact": "Usually it is a connection problem, not lost content.",
+   "say": "Myth. My site is gone for good. Fact. Usually it is a connection problem, not lost content.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "SAFETY",
+   "chip": "BACKUP",
+   "title": "Copy the file before editing",
+   "body": "Save a copy of wp-config.php first.",
+   "say": "One rule. Save a copy of the file before you edit it.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "pad": 0.3,
+   "say": "Save this for the day it happens. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this for the day it happens. Follow TechMendly for a new tech tip every day."
+  }
+ ]
+}

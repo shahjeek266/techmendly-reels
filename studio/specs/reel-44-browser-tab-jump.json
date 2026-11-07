@@ -1,0 +1,77 @@
+{
+ "id": "reel-44-browser-tab-jump",
+ "theme": "dark",
+ "cover": {
+  "lines": [
+   "Too many",
+   "browser tabs?",
+   "Jump with keys"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "Free tip"
+ },
+ "caption": "Stop clicking through 20 tabs. \u2328\ufe0f\n\nCtrl + 1 to 8: jump to that tab\nCtrl + 9: jump to the last tab\nCtrl + Tab: next tab\nCtrl + Shift + Tab: previous tab\n\nOn Mac use Cmd for number jumps. \ud83d\udccc Save this.\n\nFollow @techmendly for a new tech tip every day.\n\n#shortcuts #keyboardshortcuts #chrome #browser #productivity #computertips #lifehack #timesaver #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "PRODUCTIVITY",
+   "text": "20 tabs open and no idea where anything is?",
+   "hl": [
+    "20 tabs"
+   ],
+   "sub": "Jump with your keyboard.",
+   "say": "Twenty tabs open and no idea where anything is? Jump with your keyboard.",
+   "pad": 0.3
+  },
+  {
+   "type": "tip",
+   "tag": "SHORTCUT",
+   "chip": "JUMP",
+   "title": "Go to a specific tab",
+   "code": "Ctrl + 1 to 8",
+   "say": "Hold control and press a number from one to eight. You jump straight to that tab.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "BONUS",
+   "chip": "LAST TAB",
+   "title": "Jump to the last tab",
+   "code": "Ctrl + 9",
+   "say": "Control and nine takes you to the last tab, however many you have.",
+   "pad": 0.5
+  },
+  {
+   "type": "compare",
+   "tag": "MOVE AROUND",
+   "left": {
+    "title": "Ctrl + Tab",
+    "text": "Next tab"
+   },
+   "right": {
+    "title": "Ctrl + Shift + Tab",
+    "text": "Previous tab"
+   },
+   "say": "Control and tab moves to the next tab. Add shift to go back to the previous one.",
+   "pad": 0.5
+  },
+  {
+   "type": "stat",
+   "tag": "MAC USERS",
+   "big": "Cmd",
+   "label": "use Cmd instead of Ctrl for number jumps",
+   "say": "On a Mac, use the command key for the number jumps.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "pad": 0.3,
+   "say": "Save this and try it today. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this and try it today. Follow TechMendly for a new tech tip every day."
+  }
+ ]
+}

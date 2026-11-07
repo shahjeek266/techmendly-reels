@@ -42,6 +42,7 @@
 - Ask AI to explain like you're new, with an analogy [reel-39-ai-explain-beginner]
 - Review app permissions on your phone [reel-40-safety-app-permissions]
 - WordPress Site Health checkup (Tools > Site Health) [reel-41-wp-site-health]
+- Give AI limits: word count, no intro, format [reel-42-ai-set-limits]
 
 ## Idea bank (pick fresh ones; add more yourself)
 AI (already used 'who/what/how' and 'show an example'; avoid near-duplicates): make AI ask you questions first; ask AI to critique its own answer; give AI an example of the format you want; use AI to summarize a long PDF or email safely; AI for meeting notes and action items; "act as an editor" proofreading prompt; why AI makes things up and how to check; keep private data out of AI chats; compare AI answers by asking the same prompt twice; turn rough notes into a clean email.

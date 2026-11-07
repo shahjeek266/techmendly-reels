@@ -1,0 +1,75 @@
+{
+ "id": "reel-45-safety-tech-support-popup",
+ "theme": "light",
+ "cover": {
+  "lines": [
+   "Pop-up says",
+   "call support now?",
+   "Don't"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "Stay safe"
+ },
+ "caption": "A loud pop-up with a phone number is a scam signal. \ud83d\udea8\n\nWhat to do: don't call, don't click, close the tab or the browser. If it won't close, restart your device.\nReal companies don't show a phone number in a pop-up and demand you call now.\n\nFollow @techmendly for a new tech tip every day.\n\n#cybersecurity #onlinesafety #scamalert #techsupportscam #popup #privacy #digitalsafety #staysafe #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "ONLINE SAFETY",
+   "text": "Pop-up says your computer is infected. Call now?",
+   "hl": [
+    "Call now"
+   ],
+   "sub": "Don't. It's a scam.",
+   "say": "A pop-up says your computer is infected, call now? Do not. It is a scam.",
+   "pad": 0.3
+  },
+  {
+   "type": "steps",
+   "tag": "WHAT TO DO",
+   "title": "Stay calm and close it",
+   "items": [
+    "Don't call the number",
+    "Don't click anything inside",
+    "Close the tab or the browser"
+   ],
+   "say": "Do not call the number. Do not click anything inside it. Close the tab, or close the browser.",
+   "pad": 0.5
+  },
+  {
+   "type": "myth_fact",
+   "tag": "MYTH",
+   "myth": "A loud warning means I must act fast.",
+   "fact": "Panic and a deadline are how scammers work.",
+   "say": "Myth. A loud warning means I must act fast. Fact. Panic and a deadline are how scammers work.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "RED FLAG",
+   "chip": "PHONE NUMBER",
+   "title": "Real warnings don't say call us",
+   "body": "Your browser and system will not ask you to phone a stranger.",
+   "say": "Red flag. A real warning from your system will not ask you to phone a stranger.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "STUCK?",
+   "chip": "RESTART",
+   "title": "Can't close it?",
+   "body": "Restart your device, then run your normal security scan.",
+   "say": "If you cannot close it, restart your device, then run your normal security scan.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "pad": 0.3,
+   "say": "Share this with someone who might fall for it. Follow TechMendly for a new tech tip every day.",
+   "shown": "Share this with someone who might fall for it. Follow TechMendly for a new tech tip every day."
+  }
+ ]
+}

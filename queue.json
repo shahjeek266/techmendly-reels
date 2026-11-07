@@ -235,6 +235,10 @@
     {
       "id": "reel-41-wp-site-health",
       "status": "pending"
+    },
+    {
+      "id": "reel-42-ai-set-limits",
+      "status": "pending"
     }
   ]
 }

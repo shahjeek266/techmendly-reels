@@ -1,0 +1,75 @@
+{
+ "id": "reel-42-ai-set-limits",
+ "theme": "teal",
+ "cover": {
+  "lines": [
+   "AI answers",
+   "too long?",
+   "Set limits"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "AI tip"
+ },
+ "caption": "Long, padded answers? Give the AI limits. \u2702\ufe0f\n\nTry: \"Answer in under 80 words. No intro, no summary. Use plain words.\"\nLimits make answers shorter and easier to use.\n\nFollow @techmendly for a new tech tip every day.\n\n#ai #chatgpt #claude #aitools #promptengineering #aitips #prompts #productivity #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "AI TIP",
+   "text": "Why is every AI answer so long?",
+   "hl": [
+    "so long"
+   ],
+   "sub": "Because you didn't set limits.",
+   "say": "Why is every AI answer so long? Because you did not set limits.",
+   "pad": 0.3
+  },
+  {
+   "type": "chat",
+   "tag": "TRY THIS",
+   "title": "Add limits to your ask",
+   "user": "Explain cloud storage in under 60 words. No intro, no summary.",
+   "reply": "Cloud storage keeps your files on remote servers.\nYou reach them from any device with internet.\nYou pay for space, not hardware.",
+   "hl": [
+    "under 60 words"
+   ],
+   "say": "Try this. Explain cloud storage in under sixty words. No intro, no summary. Now you get just the useful part.",
+   "pad": 1.0
+  },
+  {
+   "type": "steps",
+   "tag": "3 LIMITS",
+   "title": "Limits that work",
+   "items": [
+    "Set a word count",
+    "Say: no intro, no summary",
+    "Name the format: 3 bullets"
+   ],
+   "say": "Three limits that work. Set a word count. Say no intro and no summary. And name the format, like three bullets.",
+   "pad": 0.5
+  },
+  {
+   "type": "compare",
+   "tag": "THE RESULT",
+   "left": {
+    "title": "No limits",
+    "text": "Long, padded answers."
+   },
+   "right": {
+    "title": "With limits",
+    "text": "Short and ready to use."
+   },
+   "say": "Without limits, you get padding. With limits, you get a short answer you can use right away.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "pad": 0.3,
+   "say": "Save this for your next prompt. Follow TechMendly for a new tech tip every day.",
+   "shown": "Save this for your next prompt. Follow TechMendly for a new tech tip every day."
+  }
+ ]
+}
