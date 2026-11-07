@@ -1,0 +1,12 @@
+Stop clicking through 20 tabs. ⌨️
+
+Ctrl + 1 to 8: jump to that tab
+Ctrl + 9: jump to the last tab
+Ctrl + Tab: next tab
+Ctrl + Shift + Tab: previous tab
+
+On Mac use Cmd for number jumps. 📌 Save this.
+
+Follow @techmendly for a new tech tip every day.
+
+#shortcuts #keyboardshortcuts #chrome #browser #productivity #computertips #lifehack #timesaver #techtips #techmendly

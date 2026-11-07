@@ -32,7 +32,8 @@
    "title": "Go to a specific tab",
    "code": "Ctrl + 1 to 8",
    "say": "Hold control and press a number from one to eight. You jump straight to that tab.",
-   "pad": 0.5
+   "pad": 0.5,
+   "body": "Works in Chrome, Edge and Firefox."
   },
   {
    "type": "tip",
@@ -41,20 +42,19 @@
    "title": "Jump to the last tab",
    "code": "Ctrl + 9",
    "say": "Control and nine takes you to the last tab, however many you have.",
-   "pad": 0.5
+   "pad": 0.5,
+   "body": "Handy when you have a long row of tabs."
   },
   {
-   "type": "compare",
+   "type": "steps",
    "tag": "MOVE AROUND",
-   "left": {
-    "title": "Ctrl + Tab",
-    "text": "Next tab"
-   },
-   "right": {
-    "title": "Ctrl + Shift + Tab",
-    "text": "Previous tab"
-   },
-   "say": "Control and tab moves to the next tab. Add shift to go back to the previous one.",
+   "title": "Step through your tabs",
+   "items": [
+    "Ctrl + Tab: next tab",
+    "Ctrl + Shift + Tab: previous tab",
+    "Ctrl + W: close this tab"
+   ],
+   "say": "Control and tab moves to the next tab. Add shift to go back to the previous one. And control and W closes the tab you are on.",
    "pad": 0.5
   },
   {
