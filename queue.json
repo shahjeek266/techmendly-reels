@@ -267,6 +267,10 @@
     {
       "id": "reel-47-wp-delete-unused",
       "status": "pending"
+    },
+    {
+      "id": "reel-48-photo-backup",
+      "status": "pending"
     }
   ]
 }
