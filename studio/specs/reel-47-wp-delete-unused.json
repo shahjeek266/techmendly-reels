@@ -1,0 +1,65 @@
+{
+ "id": "reel-47-wp-delete-unused",
+ "theme": "dark",
+ "cover": {
+  "lines": [
+   "Unused plugins",
+   "still on your site?",
+   "Delete them"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "WordPress tip"
+ },
+ "caption": "Inactive does not mean harmless. \ud83e\uddf9\n\nDashboard > Plugins: Deactivate, then Delete what you don't use.\nDashboard > Appearance > Themes: keep your active theme and delete the rest.\nBack up first, then clean up.\n\nFollow @techmendly for a new tech tip every day.\n\n#wordpress #wordpresstips #website #websecurity #webmaster #maintenance #webdev #techtips #bloggingtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "WORDPRESS",
+   "text": "Unused plugins are still on your site.",
+   "hl": [
+    "still"
+   ],
+   "sub": "Time for a clean up.",
+   "say": "Unused plugins are still on your site. Time for a clean up.",
+   "pad": 0.3
+  },
+  {
+   "type": "myth_fact",
+   "tag": "MYTH",
+   "myth": "Inactive plugins can't cause harm.",
+   "fact": "Old code stays on your server. Delete what you don't use.",
+   "say": "Many people think inactive plugins cannot cause harm. But the old code stays on your server, and it can go out of date. Delete what you do not use.",
+   "pad": 0.5
+  },
+  {
+   "type": "steps",
+   "tag": "HOW TO",
+   "title": "Clean up plugins",
+   "items": [
+    "Back up your site first",
+    "Plugins: Deactivate the unused one",
+    "Click Delete"
+   ],
+   "say": "First, back up your site. Then go to Plugins and deactivate the one you do not use. Then click Delete.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "THEMES TOO",
+   "chip": "APPEARANCE",
+   "title": "Keep only what you need",
+   "body": "Keep your active theme. Delete the rest.",
+   "say": "Do the same for themes. Keep your active theme, and delete the rest.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "pad": 0.3,
+   "say": "Save this for your next site check. Follow TechMendly for a new tech tip every day."
+  }
+ ]
+}

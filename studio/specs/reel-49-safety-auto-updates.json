@@ -1,0 +1,65 @@
+{
+ "id": "reel-49-safety-auto-updates",
+ "theme": "light",
+ "cover": {
+  "lines": [
+   "Ignoring that",
+   "update button?",
+   "Turn on auto-update"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "Online safety"
+ },
+ "caption": "Updates often include security fixes. \ud83d\udd12\n\nTurn on automatic updates for your phone, computer and apps.\nRestart when asked: some updates only finish after a restart.\n\nFollow @techmendly for a new tech tip every day.\n\n#cybersecurity #onlinesafety #security #updates #privacy #staysafeonline #techtips #digitalsafety #phonetips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "ONLINE SAFETY",
+   "text": "Do you keep tapping 'remind me later'?",
+   "hl": [
+    "later"
+   ],
+   "sub": "Updates fix security holes.",
+   "say": "Do you keep tapping remind me later? Updates fix security holes.",
+   "pad": 0.3
+  },
+  {
+   "type": "myth_fact",
+   "tag": "MYTH",
+   "myth": "Updates only add new features.",
+   "fact": "Many updates fix security problems too.",
+   "say": "Many people think updates only add new features. But many updates also fix security problems.",
+   "pad": 0.5
+  },
+  {
+   "type": "steps",
+   "tag": "3 HABITS",
+   "title": "Stay up to date",
+   "items": [
+    "Turn on automatic updates",
+    "Restart when it asks you",
+    "Update apps you still use"
+   ],
+   "say": "Three habits. Turn on automatic updates. Restart when your device asks. And update the apps you still use.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "BONUS",
+   "chip": "DELETE",
+   "title": "Remove apps you don't use",
+   "body": "Fewer apps means fewer things to keep updated.",
+   "say": "Bonus tip. Remove apps you do not use. Fewer apps means fewer things to keep updated.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "pad": 0.3,
+   "say": "Save this and turn on updates today. Follow TechMendly for a new tech tip every day."
+  }
+ ]
+}

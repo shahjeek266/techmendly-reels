@@ -1,0 +1,9 @@
+Inactive does not mean harmless. 🧹
+
+Dashboard > Plugins: Deactivate, then Delete what you don't use.
+Dashboard > Appearance > Themes: keep your active theme and delete the rest.
+Back up first, then clean up.
+
+Follow @techmendly for a new tech tip every day.
+
+#wordpress #wordpresstips #website #websecurity #webmaster #maintenance #webdev #techtips #bloggingtips #techmendly

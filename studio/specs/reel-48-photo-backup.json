@@ -1,0 +1,71 @@
+{
+ "id": "reel-48-photo-backup",
+ "theme": "teal",
+ "cover": {
+  "lines": [
+   "Lose your phone,",
+   "lose your photos?",
+   "Turn on backup"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "Productivity"
+ },
+ "caption": "Your phone can back up photos for you. \ud83d\udcf8\n\nOpen your photo app's settings and switch on backup. Common choices: Google Photos or iCloud Photos.\nCheck that it finishes, and that you have enough storage.\n\nFollow @techmendly for a new tech tip every day.\n\n#phonetips #photos #backup #googlephotos #icloud #productivity #digitalorganization #techtips #lifehacks #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "PRODUCTIVITY",
+   "text": "Lose your phone, lose every photo?",
+   "hl": [
+    "every photo"
+   ],
+   "sub": "Not if backup is on.",
+   "say": "Lose your phone, lose every photo? Not if backup is on.",
+   "pad": 0.3
+  },
+  {
+   "type": "steps",
+   "tag": "HOW TO",
+   "title": "Turn on photo backup",
+   "items": [
+    "Open your photo app's settings",
+    "Switch on backup",
+    "Check you have enough storage"
+   ],
+   "say": "Open your photo app's settings. Switch on backup. Then check that you have enough storage.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "OPTIONS",
+   "chip": "FREE TO TRY",
+   "title": "Google Photos or iCloud",
+   "body": "Use the one that matches your phone.",
+   "say": "Most phones already include one. Google Photos on Android, or iCloud Photos on iPhone. Use the one that matches your phone.",
+   "pad": 0.5
+  },
+  {
+   "type": "compare",
+   "tag": "THE RESULT",
+   "left": {
+    "title": "No backup",
+    "text": "Phone lost, photos gone."
+   },
+   "right": {
+    "title": "Backup on",
+    "text": "New phone, photos back."
+   },
+   "say": "Without backup, a lost phone can mean lost photos. With backup on, a new phone gets them back.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "pad": 0.3,
+   "say": "Save this and check your settings today. Follow TechMendly for a new tech tip every day."
+  }
+ ]
+}
