@@ -1,0 +1,74 @@
+{
+ "id": "reel-46-ai-three-options",
+ "theme": "walk",
+ "cover": {
+  "lines": [
+   "Stop taking AI's",
+   "first answer",
+   "Ask for 3 options"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "AI tip"
+ },
+ "caption": "The first AI answer is just one option. \ud83d\udca1\n\nTry: \"Give me 3 different versions: one short, one friendly, one formal. Tell me which you'd pick and why.\"\nThen mix the best parts into your own final draft.\n\nFollow @techmendly for a new tech tip every day.\n\n#ai #chatgpt #claude #aitools #promptengineering #aitips #writingtips #productivity #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "AI TIP",
+   "text": "The first AI answer is just one option.",
+   "hl": [
+    "one option"
+   ],
+   "sub": "Ask for three.",
+   "say": "The first AI answer is just one option. Ask for three.",
+   "pad": 0.3
+  },
+  {
+   "type": "chat",
+   "tag": "TRY THIS",
+   "title": "Ask for three versions",
+   "user": "Give me 3 versions of this headline: short, friendly, formal. Which would you pick?",
+   "reply": "1. Short: Fix Slow Sites Fast\n2. Friendly: Let's Speed Up Your Site\n3. Formal: A Guide to Faster Websites\nI'd pick 2.",
+   "hl": [
+    "3 versions"
+   ],
+   "say": "Try this. Give me three versions: short, friendly, and formal. Then ask which one it would pick. Now you can compare, instead of settling for the first try.",
+   "pad": 1.0
+  },
+  {
+   "type": "steps",
+   "tag": "3 STEPS",
+   "title": "Get better drafts",
+   "items": [
+    "Ask for 3 versions",
+    "Ask which it would pick, and why",
+    "Mix the best parts yourself"
+   ],
+   "say": "Three steps. Ask for three versions. Ask which one it would pick, and why. Then mix the best parts yourself.",
+   "pad": 0.5
+  },
+  {
+   "type": "compare",
+   "tag": "THE RESULT",
+   "left": {
+    "title": "One answer",
+    "text": "You take what you get."
+   },
+   "right": {
+    "title": "Three answers",
+    "text": "You choose what fits you."
+   },
+   "say": "One answer means you take what you get. Three answers let you choose what fits.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "pad": 0.3,
+   "say": "Save this for your next draft. Follow TechMendly for a new tech tip every day."
+  }
+ ]
+}
