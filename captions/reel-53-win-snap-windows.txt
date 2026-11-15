@@ -1,0 +1,9 @@
+Snap windows side by side on Windows. ⌨️
+
+Win + Left Arrow = left half
+Win + Right Arrow = right half
+Win + Up Arrow = maximize
+
+Follow @techmendly for a new tech tip every day.
+
+#windows #windows11 #windows10 #shortcuts #productivity #keyboardshortcuts #multitasking #techtips #pctips #techmendly
