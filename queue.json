@@ -283,6 +283,10 @@
     {
       "id": "reel-49-safety-auto-updates",
       "status": "pending"
+    },
+    {
+      "id": "reel-50-wp-search-visibility",
+      "status": "pending"
     }
   ]
 }

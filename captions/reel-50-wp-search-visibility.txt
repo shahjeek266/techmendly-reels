@@ -1,0 +1,7 @@
+New WordPress site not showing on Google? Check this one box. 🔍
+
+Settings > Reading > make sure "Discourage search engines from indexing this site" is UNchecked, then Save Changes.
+
+Follow @techmendly for a new tech tip every day.
+
+#wordpress #wordpresstips #seo #website #webdesign #googlesearch #smallbusiness #wpadmin #techtips #techmendly

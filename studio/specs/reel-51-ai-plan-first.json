@@ -1,0 +1,74 @@
+{
+ "id": "reel-51-ai-plan-first",
+ "theme": "dark",
+ "cover": {
+  "lines": [
+   "Big task?",
+   "Make AI plan",
+   "before it writes"
+  ],
+  "hl": [
+   1
+  ],
+  "pill": "AI tip"
+ },
+ "caption": "Big task? Don't ask AI for everything at once. \ud83e\udde0\n\nTry: \"I need to [goal]. First give me a step-by-step plan only. Wait for me to say go before doing step 1.\"\nThen work through it one step at a time.\n\nFollow @techmendly for a new tech tip every day.\n\n#ai #chatgpt #claude #aitools #promptengineering #aitips #productivity #workflow #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "AI TIP",
+   "text": "Asking AI for everything at once gives messy results.",
+   "hl": [
+    "messy results"
+   ],
+   "sub": "Ask for a plan first.",
+   "say": "Asking AI for everything at once gives messy results. Ask for a plan first.",
+   "pad": 0.3
+  },
+  {
+   "type": "chat",
+   "tag": "TRY THIS",
+   "title": "Plan first, then go",
+   "user": "I need to launch a newsletter. Give me a step-by-step plan only. Wait for my go.",
+   "reply": "Plan:\n1. Pick your topic and audience\n2. Choose a free email tool\n3. Draft your first issue\nSay go for step 1.",
+   "hl": [
+    "plan only"
+   ],
+   "say": "Try this. I need to launch a newsletter. Give me a step by step plan only, and wait for my go. The AI lists the steps and waits for you.",
+   "pad": 1.0
+  },
+  {
+   "type": "steps",
+   "tag": "3 STEPS",
+   "title": "Work in small pieces",
+   "items": [
+    "Ask for the plan only",
+    "Fix any step you disagree with",
+    "Say go, one step at a time"
+   ],
+   "say": "Three steps. Ask for the plan only. Fix any step you disagree with. Then say go, one step at a time.",
+   "pad": 0.5
+  },
+  {
+   "type": "compare",
+   "tag": "THE RESULT",
+   "left": {
+    "title": "All at once",
+    "text": "Long, vague, hard to fix."
+   },
+   "right": {
+    "title": "Plan first",
+    "text": "Clear steps you control."
+   },
+   "say": "All at once is long, vague, and hard to fix. Plan first gives you clear steps you control.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "pad": 0.3,
+   "say": "Save this for your next big task. Follow TechMendly for a new tech tip every day."
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "id": "reel-52-safety-qr-codes",
+ "theme": "walk",
+ "cover": {
+  "lines": [
+   "Scanned a",
+   "QR code?",
+   "Read the link first"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "Safety"
+ },
+ "caption": "A QR code is just a link in disguise. \ud83d\udd12\n\n1. Look at the link preview before opening\n2. Check the domain spelling\n3. Never enter passwords or card details from a random code\n\nFollow @techmendly for a new tech tip every day.\n\n#cybersecurity #onlinesafety #qrcode #scamalert #phishing #staysafe #privacy #techtips #digitalsafety #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "SAFETY",
+   "text": "A QR code is just a link you can't read.",
+   "hl": [
+    "can't read"
+   ],
+   "sub": "Read it before you open it.",
+   "say": "A QR code is just a link you can't read. Read it before you open it.",
+   "pad": 0.3
+  },
+  {
+   "type": "myth_fact",
+   "tag": "MYTH",
+   "myth": "QR codes are always safe.",
+   "fact": "Anyone can print one, or stick one over another.",
+   "say": "Myth. QR codes are always safe. Fact. Anyone can print one, or stick a new one over the real one.",
+   "pad": 0.5
+  },
+  {
+   "type": "steps",
+   "tag": "3 CHECKS",
+   "title": "Before you open it",
+   "items": [
+    "Read the link preview",
+    "Check the website name",
+    "Be wary of login or payment pages"
+   ],
+   "say": "Three checks. Read the link preview your phone shows. Check the website name is spelled right. Be wary if it asks you to log in or pay.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "RED FLAG",
+   "chip": "STICKER",
+   "title": "A code stuck over another",
+   "body": "If a code looks pasted on top of a sign, don't scan it.",
+   "say": "Red flag. If a code looks stuck on top of another sign, don't scan it.",
+   "pad": 0.5
+  },
+  {
+   "type": "stat",
+   "tag": "SAFER WAY",
+   "big": "Type it",
+   "label": "Go to the official website yourself instead",
+   "say": "The safer way is to type the official website yourself instead.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "pad": 0.3,
+   "say": "Share this with someone who scans a lot. Follow TechMendly for a new tech tip every day."
+  }
+ ]
+}

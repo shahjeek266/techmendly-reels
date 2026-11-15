@@ -1,0 +1,80 @@
+{
+ "id": "reel-53-win-snap-windows",
+ "theme": "teal",
+ "cover": {
+  "lines": [
+   "Two windows,",
+   "one screen",
+   "in one second"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "Shortcut"
+ },
+ "caption": "Snap windows side by side on Windows. \u2328\ufe0f\n\nWin + Left Arrow = left half\nWin + Right Arrow = right half\nWin + Up Arrow = maximize\n\nFollow @techmendly for a new tech tip every day.\n\n#windows #windows11 #windows10 #shortcuts #productivity #keyboardshortcuts #multitasking #techtips #pctips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "SHORTCUT",
+   "text": "Stop dragging windows around to fit them.",
+   "hl": [
+    "Stop dragging"
+   ],
+   "sub": "Use two keys instead.",
+   "say": "Stop dragging windows around to fit them. Use two keys instead.",
+   "pad": 0.3
+  },
+  {
+   "type": "tip",
+   "tag": "LEFT",
+   "chip": "WINDOWS",
+   "title": "Snap to the left half",
+   "code": "Win + Left Arrow",
+   "body": "The active window fills the left side.",
+   "say": "Hold the Windows key and press the left arrow. Your window fills the left half.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "RIGHT",
+   "chip": "WINDOWS",
+   "title": "Snap to the right half",
+   "code": "Win + Right Arrow",
+   "body": "Now pick another window for the other side.",
+   "say": "Windows key and right arrow puts it on the right half. Then pick another window for the other side.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "BONUS",
+   "chip": "MAXIMIZE",
+   "title": "Fill the whole screen",
+   "code": "Win + Up Arrow",
+   "body": "Win + Down Arrow shrinks it again.",
+   "say": "Windows key and up arrow makes a window fill the screen. Down arrow brings it back.",
+   "pad": 0.5
+  },
+  {
+   "type": "compare",
+   "tag": "THE RESULT",
+   "left": {
+    "title": "Dragging",
+    "text": "Slow and fiddly."
+   },
+   "right": {
+    "title": "Shortcut",
+    "text": "Two keys, done."
+   },
+   "say": "Dragging is slow and fiddly. The shortcut takes two keys.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "pad": 0.3,
+   "say": "Save this shortcut for later. Follow TechMendly for a new tech tip every day."
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "id": "reel-50-wp-search-visibility",
+ "theme": "walk",
+ "cover": {
+  "lines": [
+   "Is your site",
+   "hidden from",
+   "Google?"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "WordPress fix"
+ },
+ "caption": "New WordPress site not showing on Google? Check this one box. \ud83d\udd0d\n\nSettings > Reading > make sure \"Discourage search engines from indexing this site\" is UNchecked, then Save Changes.\n\nFollow @techmendly for a new tech tip every day.\n\n#wordpress #wordpresstips #seo #website #webdesign #googlesearch #smallbusiness #wpadmin #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "WORDPRESS",
+   "text": "Is one checkbox hiding your site from Google?",
+   "hl": [
+    "one checkbox"
+   ],
+   "sub": "Check it in 20 seconds.",
+   "say": "Is one checkbox hiding your site from Google? Check it in twenty seconds.",
+   "pad": 0.3
+  },
+  {
+   "type": "myth_fact",
+   "tag": "MYTH",
+   "myth": "My site is live, so Google will find it.",
+   "fact": "WordPress can ask search engines to stay away.",
+   "say": "Myth. My site is live, so Google will find it. Fact. WordPress has a setting that asks search engines to stay away.",
+   "pad": 0.5
+  },
+  {
+   "type": "steps",
+   "tag": "3 STEPS",
+   "title": "Check the setting",
+   "items": [
+    "Open Settings, then Reading",
+    "Find the search engine box",
+    "Make sure it is unchecked"
+   ],
+   "say": "Three steps. In your dashboard, open Settings, then Reading. Find the search engine visibility box. Make sure it is unchecked.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "THE BOX",
+   "chip": "READING",
+   "title": "Discourage search engines",
+   "body": "If this is ticked, tick it off and click Save Changes.",
+   "say": "The box says, discourage search engines from indexing this site. If it is ticked, untick it, then click Save Changes.",
+   "pad": 0.5
+  },
+  {
+   "type": "compare",
+   "tag": "WHY",
+   "left": {
+    "title": "While building",
+    "text": "Ticked is fine."
+   },
+   "right": {
+    "title": "When you launch",
+    "text": "Unticked, so people can find you."
+   },
+   "say": "While you are building, ticked is fine. When you launch, untick it so people can find you.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "pad": 0.3,
+   "say": "Save this for launch day. Follow TechMendly for a new tech tip every day."
+  }
+ ]
+}
