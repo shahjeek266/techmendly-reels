@@ -1,0 +1,8 @@
+Big task? Don't ask AI for everything at once. 🧠
+
+Try: "I need to [goal]. First give me a step-by-step plan only. Wait for me to say go before doing step 1."
+Then work through it one step at a time.
+
+Follow @techmendly for a new tech tip every day.
+
+#ai #chatgpt #claude #aitools #promptengineering #aitips #productivity #workflow #techtips #techmendly

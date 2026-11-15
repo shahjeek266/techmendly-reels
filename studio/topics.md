@@ -51,6 +51,7 @@
 - Turn on automatic phone photo backup [reel-48-photo-backup]
 - Turn on automatic updates (security) [reel-49-safety-auto-updates]
 - WordPress: 'Discourage search engines' box (Settings > Reading) [reel-50-wp-search-visibility]
+- Ask AI for a plan first, then go step by step [reel-51-ai-plan-first]
 
 ## Idea bank (pick fresh ones; add more yourself)
 AI (already used 'who/what/how' and 'show an example'; avoid near-duplicates): make AI ask you questions first; ask AI to critique its own answer; give AI an example of the format you want; use AI to summarize a long PDF or email safely; AI for meeting notes and action items; "act as an editor" proofreading prompt; why AI makes things up and how to check; keep private data out of AI chats; compare AI answers by asking the same prompt twice; turn rough notes into a clean email.
