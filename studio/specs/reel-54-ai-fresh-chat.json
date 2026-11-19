@@ -1,0 +1,14 @@
+{
+ "id": "reel-54-ai-fresh-chat",
+ "theme": "walk",
+ "cover": {"lines": ["AI giving", "weird answers?", "Start a new chat"], "hl": [2], "pill": "AI tip"},
+ "caption": "Long AI chats drift. Mixing topics makes answers worse. 🧠\n\nNew topic = new chat. If a chat gets long, ask: \"Summarize what we decided in 5 bullets\", then paste that summary into a fresh chat.\n\nFollow @techmendly for a new tech tip every day.\n\n#ai #chatgpt #claude #aitools #promptengineering #aitips #productivity #workflow #techtips #techmendly",
+ "scenes": [
+  {"type": "hook", "tag": "AI TIP", "text": "Is your AI chat getting worse the longer it goes?", "hl": ["getting worse"], "sub": "There's a quick fix.", "say": "Is your AI chat getting worse the longer it goes? There's a quick fix.", "pad": 0.3},
+  {"type": "myth_fact", "tag": "MYTH", "myth": "One long chat remembers everything perfectly.", "fact": "Long chats get cluttered, and details get missed.", "say": "Myth. One long chat remembers everything perfectly. Fact. Long chats get cluttered, and details get missed.", "pad": 0.5},
+  {"type": "chat", "tag": "TRY THIS", "title": "Summarize, then restart", "user": "Summarize what we decided so far in 5 short bullets.", "reply": "Summary:\n- Goal: launch in May\n- Audience: local shops\n- Tone: friendly\n- Budget: small\n- Next: draft the page", "hl": ["5 short bullets"], "say": "Try this. Ask the AI to summarize what you decided in five short bullets. Then copy that summary.", "pad": 1.0},
+  {"type": "steps", "tag": "3 STEPS", "title": "Reset the chat", "items": ["Ask for a short summary", "Open a brand new chat", "Paste the summary first"], "say": "Three steps. Ask for a short summary. Open a brand new chat. Paste the summary in first, then carry on.", "pad": 0.5},
+  {"type": "compare", "tag": "THE RESULT", "left": {"title": "Endless chat", "text": "Mixed topics, missed details."}, "right": {"title": "Fresh chat", "text": "Focused, clear answers."}, "say": "An endless chat means mixed topics and missed details. A fresh chat gives focused, clear answers.", "pad": 0.5},
+  {"type": "outro", "text": "Follow @techmendly", "sub": "A new tech tip every day", "pad": 0.3, "say": "Save this for your next long chat. Follow TechMendly for a new tech tip every day."}
+ ]
+}

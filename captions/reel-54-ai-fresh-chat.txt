@@ -1,0 +1,7 @@
+Long AI chats drift. Mixing topics makes answers worse. 🧠
+
+New topic = new chat. If a chat gets long, ask: "Summarize what we decided in 5 bullets", then paste that summary into a fresh chat.
+
+Follow @techmendly for a new tech tip every day.
+
+#ai #chatgpt #claude #aitools #promptengineering #aitips #productivity #workflow #techtips #techmendly
