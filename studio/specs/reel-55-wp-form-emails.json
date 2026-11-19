@@ -1,0 +1,14 @@
+{
+ "id": "reel-55-wp-form-emails",
+ "theme": "dark",
+ "cover": {"lines": ["Contact form", "emails never", "arrive?"], "hl": [2], "pill": "WordPress fix"},
+ "caption": "WordPress form emails going missing? Here's the usual cause. 📧\n\n1. Check the spam folder\n2. Install a free SMTP plugin so mail is sent through a real email account\n3. Send a test and confirm it lands\n\nFollow @techmendly for a new tech tip every day.\n\n#wordpress #wordpresstips #contactform #email #website #webdesign #smallbusiness #wpadmin #techtips #techmendly",
+ "scenes": [
+  {"type": "hook", "tag": "WORDPRESS", "text": "Your contact form says sent, but no email arrives?", "hl": ["no email arrives"], "sub": "Here's the usual cause.", "say": "Your contact form says sent, but no email arrives? Here's the usual cause.", "pad": 0.3},
+  {"type": "myth_fact", "tag": "MYTH", "myth": "If the form says sent, the email arrived.", "fact": "Many hosting emails get blocked or sent to spam.", "say": "Myth. If the form says sent, the email arrived. Fact. Emails sent straight from a website are often blocked or land in spam.", "pad": 0.5},
+  {"type": "steps", "tag": "3 STEPS", "title": "Fix missing form emails", "items": ["Check your spam folder", "Install a free SMTP plugin", "Connect a real email account"], "say": "Three steps. Check your spam folder. Install a free S M T P plugin. Then connect a real email account.", "shown": "Three steps. Check your spam folder. Install a free SMTP plugin. Then connect a real email account.", "pad": 0.5},
+  {"type": "tip", "tag": "WHY IT WORKS", "chip": "SMTP", "title": "Send like a real mailbox", "body": "Mail sent through your email account is trusted far more.", "say": "An S M T P plugin sends your site's emails through a real mailbox, which inboxes trust far more.", "shown": "An SMTP plugin sends your site's emails through a real mailbox, which inboxes trust far more.", "pad": 0.5},
+  {"type": "compare", "tag": "THE RESULT", "left": {"title": "Before", "text": "Leads lost, no idea why."}, "right": {"title": "After", "text": "Every message reaches you."}, "say": "Before, you lose leads and never know why. After, every message reaches you.", "pad": 0.5},
+  {"type": "outro", "text": "Follow @techmendly", "sub": "A new tech tip every day", "pad": 0.3, "say": "Save this and send a test today. Follow TechMendly for a new tech tip every day."}
+ ]
+}

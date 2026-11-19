@@ -1,0 +1,9 @@
+WordPress form emails going missing? Here's the usual cause. 📧
+
+1. Check the spam folder
+2. Install a free SMTP plugin so mail is sent through a real email account
+3. Send a test and confirm it lands
+
+Follow @techmendly for a new tech tip every day.
+
+#wordpress #wordpresstips #contactform #email #website #webdesign #smallbusiness #wpadmin #techtips #techmendly
