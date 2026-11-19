@@ -1,0 +1,13 @@
+{
+ "id": "reel-56-auto-event-reminder",
+ "theme": "walk",
+ "cover": {"lines": ["Clients missing", "appointments?", "Auto-remind them"], "hl": [2], "pill": "Free, in 3 steps"},
+ "caption": "Stop chasing no-shows by hand. ⏰\n\n1. Trigger: a calendar event is about to start\n2. Action: send a reminder email to the guest\n3. Turn it on\n\nFree tools like Zapier or Make can do this.\n\nFollow @techmendly for a new tech tip every day.\n\n#automation #nocode #zapier #make #productivity #smallbusiness #workflow #calendar #techtips #techmendly",
+ "scenes": [
+  {"type": "hook", "tag": "AUTOMATION", "text": "Still reminding clients about appointments by hand?", "hl": ["by hand"], "sub": "Let a free tool do it.", "say": "Still reminding clients about appointments by hand? Let a free tool do it.", "pad": 0.3},
+  {"type": "flow", "tag": "THE FLOW", "title": "Automation tool", "cards": [{"kind": "Trigger", "title": "Calendar event soon", "sub": "One day before", "icon": "C", "color": "blue"}, {"kind": "Action", "title": "Send reminder email", "sub": "Time and details", "icon": "@", "color": "orange"}], "say": "Open a free tool like Zapier or Make. Pick a trigger, a calendar event coming up. Add an action, send the guest a reminder email.", "pad": 0.5},
+  {"type": "flow", "tag": "TURN IT ON", "title": "Automation tool", "cards": [{"kind": "Trigger", "title": "Calendar event soon", "sub": "One day before", "icon": "C", "color": "blue"}, {"kind": "Action", "title": "Send reminder email", "sub": "Time and details", "icon": "@", "color": "orange"}], "toggle": {"label": "Automation", "done": "Reminder sent."}, "say": "Now turn it on. Every guest gets a reminder, and you do nothing.", "pad": 0.8},
+  {"type": "tip", "tag": "TIP", "chip": "TEST", "title": "Test with your own email", "body": "Add yourself as a guest first and check it arrives.", "say": "Tip. Test it first by adding yourself as the guest.", "pad": 0.5},
+  {"type": "outro", "text": "Follow @techmendly", "sub": "A new tech tip every day", "pad": 0.3, "say": "Save this for your next busy week. Follow TechMendly for a new tech tip every day."}
+ ]
+}

@@ -1,0 +1,11 @@
+Stop chasing no-shows by hand. ⏰
+
+1. Trigger: a calendar event is about to start
+2. Action: send a reminder email to the guest
+3. Turn it on
+
+Free tools like Zapier or Make can do this.
+
+Follow @techmendly for a new tech tip every day.
+
+#automation #nocode #zapier #make #productivity #smallbusiness #workflow #calendar #techtips #techmendly
