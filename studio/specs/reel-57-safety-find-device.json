@@ -1,0 +1,14 @@
+{
+ "id": "reel-57-safety-find-device",
+ "theme": "light",
+ "cover": {"lines": ["Lose your", "phone today?", "Set this up now"], "hl": [2], "pill": "Safety"},
+ "caption": "Set this up BEFORE you lose your phone. 📱\n\n1. Open your phone's settings and find the \"find my device\" feature\n2. Turn it on, and allow location\n3. Check you can see the phone from a computer\n\nFollow @techmendly for a new tech tip every day.\n\n#cybersecurity #onlinesafety #phonesecurity #lostphone #staysafe #privacy #smartphone #techtips #digitalsafety #techmendly",
+ "scenes": [
+  {"type": "hook", "tag": "SAFETY", "text": "If you lose your phone today, can you find it?", "hl": ["can you find it"], "sub": "Set it up in one minute.", "say": "If you lose your phone today, can you find it? Set it up in one minute.", "pad": 0.3},
+  {"type": "myth_fact", "tag": "MYTH", "myth": "I'll set up tracking after my phone is lost.", "fact": "It only works if it was turned on beforehand.", "say": "Myth. I'll set up tracking after my phone is lost. Fact. It only works if you turned it on beforehand.", "pad": 0.5},
+  {"type": "steps", "tag": "3 STEPS", "title": "Turn on find my device", "items": ["Open your phone's settings", "Turn on find my device", "Allow location access"], "say": "Three steps. Open your phone's settings. Turn on the find my device feature. Allow location access.", "pad": 0.5},
+  {"type": "tip", "tag": "EXTRA", "chip": "LOCK SCREEN", "title": "Use a screen lock", "body": "A PIN or biometric lock keeps strangers out if it goes missing.", "say": "Extra tip. Use a screen lock, so strangers can't get in if it goes missing.", "pad": 0.5},
+  {"type": "compare", "tag": "THE RESULT", "left": {"title": "Not set up", "text": "Gone for good."}, "right": {"title": "Set up", "text": "Locate, lock, or erase it."}, "say": "Not set up, and it's gone for good. Set up, and you can locate, lock, or erase it.", "pad": 0.5},
+  {"type": "outro", "text": "Follow @techmendly", "sub": "A new tech tip every day", "pad": 0.3, "say": "Do it now, then save this for a friend. Follow TechMendly for a new tech tip every day."}
+ ]
+}
