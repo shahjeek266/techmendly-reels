@@ -339,6 +339,10 @@
     {
       "id": "reel-59-wp-revisions",
       "status": "pending"
+    },
+    {
+      "id": "reel-60-auto-email-filter",
+      "status": "pending"
     }
   ]
 }
