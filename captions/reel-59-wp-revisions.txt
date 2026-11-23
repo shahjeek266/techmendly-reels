@@ -1,0 +1,11 @@
+Edited a post and lost the good version? 🛟
+
+1. Open the post in the editor
+2. In the settings panel, find Revisions
+3. Pick an older version and restore it
+
+WordPress saves earlier versions automatically.
+
+Follow @techmendly for a new tech tip every day.
+
+#wordpress #wordpresstips #website #webdesign #blogging #wpbeginner #smallbusiness #contentcreator #techtips #techmendly

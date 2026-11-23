@@ -28,7 +28,7 @@
   {
    "type": "stat",
    "tag": "GOOD NEWS",
-   "big": "Auto-saved",
+   "big": "Saved",
    "label": "WordPress keeps earlier versions of your posts",
    "say": "Good news. WordPress automatically keeps earlier versions of your posts.",
    "pad": 0.5
