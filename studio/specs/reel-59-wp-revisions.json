@@ -1,0 +1,79 @@
+{
+ "id": "reel-59-wp-revisions",
+ "theme": "teal",
+ "cover": {
+  "lines": [
+   "Broke your",
+   "WordPress post?",
+   "Restore it"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "WordPress"
+ },
+ "caption": "Edited a post and lost the good version? \ud83d\udedf\n\n1. Open the post in the editor\n2. In the settings panel, find Revisions\n3. Pick an older version and restore it\n\nWordPress saves earlier versions automatically.\n\nFollow @techmendly for a new tech tip every day.\n\n#wordpress #wordpresstips #website #webdesign #blogging #wpbeginner #smallbusiness #contentcreator #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "WORDPRESS",
+   "text": "Messed up a post and can't undo it?",
+   "hl": [
+    "can't undo it"
+   ],
+   "sub": "WordPress kept a copy.",
+   "say": "Messed up a post and can't undo it? WordPress kept a copy.",
+   "pad": 0.3
+  },
+  {
+   "type": "stat",
+   "tag": "GOOD NEWS",
+   "big": "Auto-saved",
+   "label": "WordPress keeps earlier versions of your posts",
+   "say": "Good news. WordPress automatically keeps earlier versions of your posts.",
+   "pad": 0.5
+  },
+  {
+   "type": "steps",
+   "tag": "3 STEPS",
+   "title": "Restore an old version",
+   "items": [
+    "Open the post in the editor",
+    "Find Revisions in the settings",
+    "Pick a version and restore"
+   ],
+   "say": "Three steps. Open the post in the editor. Find Revisions in the settings panel. Pick an older version and restore it.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "TIP",
+   "chip": "BEFORE YOU RESTORE",
+   "title": "Compare first",
+   "body": "Check what changed between versions, then restore.",
+   "say": "Tip. Compare the versions first, then restore the one you want.",
+   "pad": 0.5
+  },
+  {
+   "type": "compare",
+   "tag": "THE RESULT",
+   "left": {
+    "title": "Panic",
+    "text": "Retype it all from memory."
+   },
+   "right": {
+    "title": "Revisions",
+    "text": "Back in a few clicks."
+   },
+   "say": "Without revisions, you retype it all from memory. With revisions, you're back in a few clicks.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "pad": 0.3,
+   "say": "Save this for the day you need it. Follow TechMendly for a new tech tip every day."
+  }
+ ]
+}

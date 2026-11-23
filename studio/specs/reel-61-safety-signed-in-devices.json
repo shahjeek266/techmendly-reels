@@ -1,0 +1,79 @@
+{
+ "id": "reel-61-safety-signed-in-devices",
+ "theme": "dark",
+ "cover": {
+  "lines": [
+   "Who else is",
+   "logged into",
+   "your account?"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "Safety"
+ },
+ "caption": "Check who's signed in to your accounts. \ud83d\udd10\n\n1. Open your account's security settings\n2. Look for a list of devices or recent activity\n3. Sign out anything you don't recognize, then change your password\n\nDo this for email first.\n\nFollow @techmendly for a new tech tip every day.\n\n#cybersecurity #onlinesafety #accountsecurity #privacy #staysafe #passwords #digitalsafety #techtips #infosec #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "SAFETY",
+   "text": "Is someone else still signed in to your email?",
+   "hl": [
+    "still signed in"
+   ],
+   "sub": "Check in one minute.",
+   "say": "Is someone else still signed in to your email? Check in one minute.",
+   "pad": 0.3
+  },
+  {
+   "type": "myth_fact",
+   "tag": "MYTH",
+   "myth": "If I close the app, I'm signed out everywhere.",
+   "fact": "Old devices can stay signed in until you remove them.",
+   "say": "Myth. If I close the app, I'm signed out everywhere. Fact. Old devices can stay signed in until you remove them.",
+   "pad": 0.5
+  },
+  {
+   "type": "steps",
+   "tag": "3 STEPS",
+   "title": "Check your devices",
+   "items": [
+    "Open security settings",
+    "Find the device list",
+    "Sign out ones you don't know"
+   ],
+   "say": "Three steps. Open your account's security settings. Find the list of devices. Sign out any you don't recognize.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "NEXT",
+   "chip": "IF SOMETHING LOOKS WRONG",
+   "title": "Change your password",
+   "body": "Then turn on two-factor authentication.",
+   "say": "If something looks wrong, change your password, then turn on two-factor authentication.",
+   "pad": 0.5
+  },
+  {
+   "type": "compare",
+   "tag": "THE RESULT",
+   "left": {
+    "title": "Never checked",
+    "text": "Old devices linger."
+   },
+   "right": {
+    "title": "Checked",
+    "text": "Only your devices stay in."
+   },
+   "say": "Never checked, and old devices linger. Checked, and only your devices stay in.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "pad": 0.3,
+   "say": "Do your email first, then save this. Follow TechMendly for a new tech tip every day."
+  }
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "id": "reel-60-auto-email-filter",
+ "theme": "walk",
+ "cover": {
+  "lines": [
+   "Inbox full of",
+   "newsletters?",
+   "Auto-sort them"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "Free, in 3 steps"
+ },
+ "caption": "Let your inbox sort itself. \ud83d\udcec\n\n1. Open one newsletter email\n2. Use the email app's option to create a filter or rule from it\n3. Choose to apply a label or skip the inbox\n\nGmail and Outlook both have this built in, for free.\n\nFollow @techmendly for a new tech tip every day.\n\n#productivity #email #gmail #outlook #inboxzero #automation #organization #workflow #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "PRODUCTIVITY",
+   "text": "Drowning in newsletters you never open?",
+   "hl": [
+    "never open"
+   ],
+   "sub": "Make your inbox sort them for you.",
+   "say": "Drowning in newsletters you never open? Make your inbox sort them for you.",
+   "pad": 0.3
+  },
+  {
+   "type": "flow",
+   "tag": "THE FLOW",
+   "title": "Inbox rule",
+   "cards": [
+    {
+     "kind": "If",
+     "title": "Email is from a sender",
+     "sub": "A newsletter you pick",
+     "icon": "@",
+     "color": "blue"
+    },
+    {
+     "kind": "Then",
+     "title": "Apply a label",
+     "sub": "Skip the inbox",
+     "icon": "L",
+     "color": "purple"
+    }
+   ],
+   "say": "Gmail and Outlook both let you make a rule. If an email comes from a sender you pick, then apply a label and skip the inbox.",
+   "pad": 0.5
+  },
+  {
+   "type": "flow",
+   "tag": "TURN IT ON",
+   "title": "Inbox rule",
+   "cards": [
+    {
+     "kind": "If",
+     "title": "Email is from a sender",
+     "sub": "A newsletter you pick",
+     "icon": "@",
+     "color": "blue"
+    },
+    {
+     "kind": "Then",
+     "title": "Apply a label",
+     "sub": "Skip the inbox",
+     "icon": "L",
+     "color": "purple"
+    }
+   ],
+   "toggle": {
+    "label": "Rule",
+    "done": "Inbox sorted."
+   },
+   "say": "Save the rule, and those emails file themselves from now on.",
+   "pad": 0.8
+  },
+  {
+   "type": "tip",
+   "tag": "TIP",
+   "chip": "EASY WAY",
+   "title": "Start from a real email",
+   "body": "Open one newsletter and create the rule from it.",
+   "say": "Tip. Start from a real newsletter email, and create the rule from it.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "pad": 0.3,
+   "say": "Save this for inbox cleanup day. Follow TechMendly for a new tech tip every day."
+  }
+ ]
+}

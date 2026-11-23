@@ -1,0 +1,77 @@
+{
+ "id": "reel-58-ai-opposite-view",
+ "theme": "walk",
+ "cover": {
+  "lines": [
+   "Only hearing",
+   "yes from AI?",
+   "Ask the other side"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "AI tip"
+ },
+ "caption": "AI tends to agree with you. Make it argue back. \ud83e\udde0\n\nTry: \"Give me the 3 strongest arguments against this plan, then tell me what would change your mind.\"\n\nUse it before big decisions, not after.\n\nFollow @techmendly for a new tech tip every day.\n\n#ai #chatgpt #claude #aitools #promptengineering #aitips #decisionmaking #productivity #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "AI TIP",
+   "text": "Your AI keeps agreeing with every idea you have.",
+   "hl": [
+    "agreeing"
+   ],
+   "sub": "Here's how to get a real check.",
+   "say": "Your AI keeps agreeing with every idea you have. Here's how to get a real check.",
+   "pad": 0.3
+  },
+  {
+   "type": "chat",
+   "tag": "TRY THIS",
+   "title": "Ask for the other side",
+   "user": "Give me the 3 strongest arguments against my plan.",
+   "reply": "Arguments against:\n- Costs more than expected\n- Takes longer to launch\n- Customers may not switch",
+   "hl": [
+    "strongest arguments against"
+   ],
+   "say": "Try this. Ask for the three strongest arguments against your plan.",
+   "pad": 1.0
+  },
+  {
+   "type": "myth_fact",
+   "tag": "MYTH",
+   "myth": "If the AI likes my idea, it must be good.",
+   "fact": "AI often goes along with you. Ask it to push back.",
+   "say": "Myth. If the AI likes my idea, it must be good. Fact. AI often goes along with you, so ask it to push back.",
+   "pad": 0.5
+  },
+  {
+   "type": "steps",
+   "tag": "3 STEPS",
+   "title": "Stress-test an idea",
+   "items": [
+    "Describe your plan clearly",
+    "Ask for arguments against it",
+    "Fix the weak spots you find"
+   ],
+   "say": "Three steps. Describe your plan clearly. Ask for the arguments against it. Then fix the weak spots you find.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "EXTRA",
+   "chip": "BONUS",
+   "title": "Ask what would change its mind",
+   "body": "It shows which assumptions your plan depends on.",
+   "say": "Bonus. Ask what would change its mind. It shows which assumptions your plan depends on.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "pad": 0.3,
+   "say": "Save this before your next big decision. Follow TechMendly for a new tech tip every day."
+  }
+ ]
+}
