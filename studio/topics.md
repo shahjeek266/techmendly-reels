@@ -65,6 +65,7 @@
 - Practice a tough conversation by having AI role-play [reel-62-ai-roleplay-practice]
 - WordPress backups: plugin, schedule, off-site copy [reel-63-wp-backup]
 - File naming: date first, what, who [reel-64-file-naming]
+- Urgent requests: pause and verify on a known number [reel-65-safety-urgent-request]
 
 ## Idea bank (pick fresh ones; add more yourself)
 AI (already used 'who/what/how' and 'show an example'; avoid near-duplicates): make AI ask you questions first; ask AI to critique its own answer; give AI an example of the format you want; use AI to summarize a long PDF or email safely; AI for meeting notes and action items; "act as an editor" proofreading prompt; why AI makes things up and how to check; keep private data out of AI chats; compare AI answers by asking the same prompt twice; turn rough notes into a clean email.

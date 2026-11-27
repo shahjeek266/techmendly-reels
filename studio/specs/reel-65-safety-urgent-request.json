@@ -1,0 +1,13 @@
+{
+ "id": "reel-65-safety-urgent-request",
+ "theme": "walk",
+ "cover": {"lines": ["\"Urgent! Send", "it right now\"", "Pause first"], "hl": [2], "pill": "Stay safe"},
+ "caption": "Scammers use urgency so you won't think. ⚠️\n\n1. Pause. Real emergencies survive a 5-minute check.\n2. Contact the person on a number you already have.\n3. Never act on a request just because it sounds like your boss.\n\nFollow @techmendly for a new tech tip every day.\n\n#cybersecurity #onlinesafety #scamalert #phishing #staysafe #smallbusiness #privacy #techtips #scams #techmendly",
+ "scenes": [
+  {"type": "hook", "tag": "STAY SAFE", "text": "\"Urgent! Do this right now.\" Stop right there.", "hl": ["Stop"], "sub": "Urgency is the scammer's tool.", "say": "Urgent! Do this right now. Stop right there. Urgency is the scammer's tool.", "pad": 0.3},
+  {"type": "myth_fact", "tag": "MYTH", "myth": "If it sounds like my boss, it's my boss.", "fact": "Names and tone are easy to fake. Verify it.", "say": "Myth. If it sounds like my boss, it's my boss. Fact. Names and tone are easy to fake, so verify it.", "pad": 0.5},
+  {"type": "steps", "tag": "3 STEPS", "title": "Check before you act", "items": ["Pause for five minutes", "Call on a number you know", "Never use the number in the message"], "say": "Three steps. Pause for five minutes. Call on a number you already know. Never use the number in the message.", "pad": 0.5},
+  {"type": "tip", "tag": "TIP", "chip": "RED FLAG", "title": "Secrecy plus rush", "body": "\"Don't tell anyone, do it now\" is a warning sign.", "say": "Tip. Secrecy plus a rush is a big red flag.", "pad": 0.5},
+  {"type": "outro", "text": "Follow @techmendly", "sub": "A new tech tip every day", "pad": 0.3, "say": "Share this with someone who would hurry. Follow TechMendly for a new tech tip every day."}
+ ]
+}
