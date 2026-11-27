@@ -1,0 +1,79 @@
+{
+ "id": "reel-63-wp-backup",
+ "theme": "teal",
+ "cover": {
+  "lines": [
+   "No backup of",
+   "your WordPress",
+   "site?"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "WordPress fix"
+ },
+ "caption": "A backup turns a disaster into a bad afternoon. 💾\n\n1. Install a backup plugin (UpdraftPlus has a free version)\n2. Set an automatic schedule\n3. Send copies off your site (cloud storage)\n4. Test a restore once\n\nFollow @techmendly for a new tech tip every day.\n\n#wordpress #wordpresstips #website #webdesign #backup #websecurity #smallbusiness #webmaster #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "WORDPRESS",
+   "text": "If your site broke today, could you restore it?",
+   "hl": [
+    "restore it"
+   ],
+   "sub": "Only a backup can save you.",
+   "say": "If your site broke today, could you restore it? Only a backup can save you.",
+   "pad": 0.3
+  },
+  {
+   "type": "myth_fact",
+   "tag": "MYTH",
+   "myth": "My host surely keeps a copy for me.",
+   "fact": "Don't count on it. Set up your own backups.",
+   "say": "Myth. My host surely keeps a copy for me. Fact. Don't count on it. Set up your own backups.",
+   "pad": 0.5
+  },
+  {
+   "type": "steps",
+   "tag": "3 STEPS",
+   "title": "Set up backups",
+   "items": [
+    "Install a backup plugin",
+    "Set an automatic schedule",
+    "Save copies in the cloud"
+   ],
+   "say": "Three steps. Install a backup plugin. Set an automatic schedule. Then save copies in the cloud.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "TIP",
+   "chip": "FREE OPTION",
+   "title": "Try a plugin like UpdraftPlus",
+   "body": "The free version covers scheduled backups.",
+   "say": "Tip. A plugin like UpdraftPlus has a free version for scheduled backups.",
+   "pad": 0.5
+  },
+  {
+   "type": "compare",
+   "tag": "WHY STORE OFF-SITE",
+   "left": {
+    "title": "Same server",
+    "text": "Lost along with the site."
+   },
+   "right": {
+    "title": "Cloud storage",
+    "text": "Safe if the site is gone."
+   },
+   "say": "Backups on the same server can be lost along with your site. Copies in cloud storage stay safe.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "pad": 0.3,
+   "say": "Save this and set it up today. Follow TechMendly for a new tech tip every day."
+  }
+ ]
+}

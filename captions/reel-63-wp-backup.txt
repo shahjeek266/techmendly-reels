@@ -1,0 +1,10 @@
+A backup turns a disaster into a bad afternoon. 💾
+
+1. Install a backup plugin (UpdraftPlus has a free version)
+2. Set an automatic schedule
+3. Send copies off your site (cloud storage)
+4. Test a restore once
+
+Follow @techmendly for a new tech tip every day.
+
+#wordpress #wordpresstips #website #webdesign #backup #websecurity #smallbusiness #webmaster #techtips #techmendly
