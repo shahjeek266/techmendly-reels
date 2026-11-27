@@ -1,0 +1,83 @@
+{
+ "id": "reel-62-ai-roleplay-practice",
+ "theme": "walk",
+ "cover": {
+  "lines": [
+   "Nervous about",
+   "a tough talk?",
+   "Practice with AI"
+  ],
+  "hl": [
+   2
+  ],
+  "pill": "AI tip"
+ },
+ "caption": "Rehearse before the real conversation. 🎤\n\nTry: \"Act as a tough client. I'll pitch my price, you push back. Stay in character, then give me feedback.\"\n\nGreat for interviews, pitches and hard emails.\n\nFollow @techmendly for a new tech tip every day.\n\n#ai #chatgpt #claude #aitools #promptengineering #aitips #interviewtips #productivity #techtips #techmendly",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "AI TIP",
+   "text": "Dreading a tough talk? Rehearse it first.",
+   "hl": [
+    "Rehearse"
+   ],
+   "sub": "AI is a patient partner.",
+   "say": "Dreading a tough talk? Rehearse it first. AI is a patient practice partner.",
+   "pad": 0.3
+  },
+  {
+   "type": "chat",
+   "tag": "TRY THIS",
+   "title": "Give it a role",
+   "user": "Act as a tough client. I'll pitch my price, you push back.",
+   "reply": "Got it. I'm the client.\nGo ahead and pitch.\nI'll question every number.",
+   "hl": [
+    "tough client"
+   ],
+   "say": "Try this. Tell the AI to act as a tough client, and push back on your price.",
+   "pad": 1.0
+  },
+  {
+   "type": "steps",
+   "tag": "3 STEPS",
+   "title": "Practice a hard talk",
+   "items": [
+    "Name the role and the scene",
+    "Answer as you would for real",
+    "Ask for feedback at the end"
+   ],
+   "say": "Three steps. Name the role and the scene. Answer as you would for real. Then ask for feedback at the end.",
+   "pad": 0.5
+  },
+  {
+   "type": "tip",
+   "tag": "EXTRA",
+   "chip": "BONUS",
+   "title": "Ask it to stay in character",
+   "body": "Then say: now step out and give me feedback.",
+   "say": "Bonus. Ask it to stay in character, then step out and give you feedback.",
+   "pad": 0.5
+  },
+  {
+   "type": "compare",
+   "tag": "THE RESULT",
+   "left": {
+    "title": "Cold start",
+    "text": "Freeze when they push back."
+   },
+   "right": {
+    "title": "Rehearsed",
+    "text": "You've heard it before."
+   },
+   "say": "Without practice, you freeze when they push back. With practice, you have heard it before.",
+   "pad": 0.5
+  },
+  {
+   "type": "outro",
+   "text": "Follow @techmendly",
+   "sub": "A new tech tip every day",
+   "pad": 0.3,
+   "say": "Save this before your next big conversation. Follow TechMendly for a new tech tip every day."
+  }
+ ]
+}
