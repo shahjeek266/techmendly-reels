@@ -1,0 +1,9 @@
+Name files so they sort themselves. 📁
+
+Use: 2026-11-27_invoice_acme.pdf
+
+Date first (year-month-day), then what it is, then who. No spaces, use underscores.
+
+Follow @techmendly for a new tech tip every day.
+
+#productivity #organization #filemanagement #windows #mac #worktips #digitalorganization #techtips #lifehacks #techmendly

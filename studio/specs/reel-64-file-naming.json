@@ -1,0 +1,13 @@
+{
+ "id": "reel-64-file-naming",
+ "theme": "light",
+ "cover": {"lines": ["Can't find", "your files?", "Name them smarter"], "hl": [2], "pill": "Quick tip"},
+ "caption": "Name files so they sort themselves. 📁\n\nUse: 2026-11-27_invoice_acme.pdf\n\nDate first (year-month-day), then what it is, then who. No spaces, use underscores.\n\nFollow @techmendly for a new tech tip every day.\n\n#productivity #organization #filemanagement #windows #mac #worktips #digitalorganization #techtips #lifehacks #techmendly",
+ "scenes": [
+  {"type": "hook", "tag": "PRODUCTIVITY", "text": "Why does finding one file take five minutes?", "hl": ["five minutes"], "sub": "Fix it with one naming rule.", "say": "Why does finding one file take five minutes? Fix it with one naming rule.", "pad": 0.3},
+  {"type": "compare", "tag": "BEFORE AND AFTER", "left": {"title": "Messy", "text": "final_FINAL_v2 (new).pdf"}, "right": {"title": "Clear", "text": "2026-11-27_invoice_acme.pdf"}, "say": "Instead of final final version two, name it with the date, what it is, and who it's for.", "pad": 0.5},
+  {"type": "steps", "tag": "3 PARTS", "title": "The naming rule", "items": ["Date first: year-month-day", "Then what the file is", "Then who or what it's for"], "say": "Three parts. Date first, year, month, day. Then what the file is. Then who or what it's for.", "pad": 0.5},
+  {"type": "tip", "tag": "WHY IT WORKS", "chip": "SORTING", "title": "Year first sorts by date", "body": "Files line up in order with no extra effort.", "say": "Why it works. Putting the year first makes your files line up in date order on their own.", "pad": 0.5},
+  {"type": "outro", "text": "Follow @techmendly", "sub": "A new tech tip every day", "pad": 0.3, "say": "Save this and rename one folder today. Follow TechMendly for a new tech tip every day."}
+ ]
+}
